@@ -22,13 +22,16 @@ jobs:
         run: pip install ./backend
 
       - name: Generate signals
-        run: python -m src.main --config backend/config/market_pairs.yaml --output data/
+        run: python -m src.main --config backend/config/market_pairs.yaml --output ../data/
         working-directory: backend
 
-      - name: Commit and push signal data
+      - name: Copy data to frontend
+        run: cp -r data/* frontend/public/data/
+
+      - name: Commit and push
         run: |
           git config user.name "lead-lag-bot"
           git config user.email "bot@lead-lag.dev"
-          git add data/
+          git add data/ frontend/public/data/
           git diff --cached --quiet || git commit -m "Update signals for $(date +%Y-%m-%d)"
           git push

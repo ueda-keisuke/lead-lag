@@ -1,0 +1,28 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0d1117"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#58a6ff"/>
+
+  <text x="80" y="120" font-family="monospace" font-size="42" font-weight="bold" fill="#f0f6fc" letter-spacing="3">GLOBAL MARKET PROPAGATION</text>
+  <text x="80" y="170" font-family="monospace" font-size="20" fill="#8b949e">Where will today's US market move hit next?</text>
+
+  <text x="80" y="250" font-family="monospace" font-size="16" fill="#58a6ff" letter-spacing="1.5">MARKET PAIRS</text>
+
+  <text x="80" y="290" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  Japan</text>
+  <text x="80" y="325" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  Korea</text>
+  <text x="80" y="360" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  Europe</text>
+  <text x="450" y="290" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  India</text>
+  <text x="450" y="325" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  Hong Kong</text>
+  <text x="450" y="360" font-family="monospace" font-size="22" fill="#c9d1d9">US  →  Australia</text>
+
+  <text x="80" y="440" font-family="monospace" font-size="16" fill="#58a6ff" letter-spacing="1.5">SIGNALS</text>
+  <rect x="80" y="460" width="180" height="24" fill="#3fb950" opacity="0.8"/>
+  <text x="90" y="478" font-family="monospace" font-size="13" fill="#0d1117" font-weight="bold">LONG  Semiconductor</text>
+  <rect x="80" y="492" width="140" height="24" fill="#3fb950" opacity="0.6"/>
+  <text x="90" y="510" font-family="monospace" font-size="13" fill="#0d1117" font-weight="bold">LONG  Technology</text>
+  <rect x="80" y="524" width="120" height="24" fill="#f85149" opacity="0.6"/>
+  <text x="90" y="542" font-family="monospace" font-size="13" fill="#0d1117" font-weight="bold">SHORT  Healthcare</text>
+  <rect x="80" y="556" width="160" height="24" fill="#f85149" opacity="0.8"/>
+  <text x="90" y="574" font-family="monospace" font-size="13" fill="#0d1117" font-weight="bold">SHORT  Consumer</text>
+
+  <text x="80" y="610" font-family="monospace" font-size="14" fill="#6e7681">leadlag.dev — Daily signals based on subspace-regularized PCA</text>
+</svg>
