@@ -13,6 +13,7 @@ from .models import AlgorithmParams, MarketPairConfig, SignalOutput, load_config
 from .output_writer import append_history, write_index, write_latest_signal
 from .prior_subspace import build_prior_correlation_matrix, build_prior_subspace
 from .regularized_pca import compute_correlation_matrix, run_regularized_pca
+from .snapshot_generator import generate_snapshot
 from .returns import compute_cc_returns, standardize_returns
 from .signal_generator import generate_sector_signals
 
@@ -144,6 +145,7 @@ def process_market_pair(
     # Write output
     write_latest_signal(signal_output, output_dir)
     append_history(signal_output, output_dir)
+    generate_snapshot(signal_output, output_dir)
 
     print(f"  Signal generated for {signal_output.signal_date}")
     print(f"  Shock magnitude: {shock_magnitude:.4f}")

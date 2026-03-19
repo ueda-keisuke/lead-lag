@@ -5,6 +5,7 @@ import { ShockIndex } from "./ShockIndex";
 import { SectorRanking } from "./SectorRanking";
 import { LeaderReturns } from "./LeaderReturns";
 import { HistoryChart } from "./HistoryChart";
+import { ShareButtons } from "./ShareButtons";
 import { SnapshotButton } from "./SnapshotButton";
 import { formatDate } from "../lib/format";
 
@@ -97,6 +98,11 @@ export function Dashboard() {
           />
 
           {history && <HistoryChart entries={history.entries} />}
+
+          <ShareButtons
+            pairId={signal.market_pair_id}
+            signalDate={signal.signal_date}
+          />
 
           <footer className="signal-footer">
             <span>

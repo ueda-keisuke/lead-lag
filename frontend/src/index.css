@@ -335,6 +335,52 @@ body {
   color: var(--color-short);
 }
 
+/* Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 0;
+  margin-top: 8px;
+}
+
+.share-btn {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 6px 16px;
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+  transition: all 0.15s;
+}
+
+.share-btn:hover {
+  color: var(--color-text-bright);
+  border-color: var(--color-text-dim);
+}
+
+.share-x:hover {
+  border-color: #1da1f2;
+  color: #1da1f2;
+}
+
+.share-reddit:hover {
+  border-color: #ff4500;
+  color: #ff4500;
+}
+
+.share-linkedin:hover {
+  border-color: #0a66c2;
+  color: #0a66c2;
+}
+
+.share-download:hover {
+  border-color: var(--color-long);
+  color: var(--color-long);
+}
+
 /* Footer */
 .signal-footer {
   font-size: 11px;
