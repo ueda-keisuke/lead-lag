@@ -22,7 +22,7 @@ jobs:
         run: pip install ./backend
 
       - name: Generate signals
-        run: python -m src.main --config backend/config/market_pairs.yaml --output ../data/
+        run: python -m src.main --config config/market_pairs.yaml --output ../data/
         working-directory: backend
 
       - name: Copy data to frontend
