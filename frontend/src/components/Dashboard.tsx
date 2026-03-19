@@ -1,0 +1,111 @@
+import { useRef, useState } from "react";
+import { useIndex, useSignalData, useHistoryData } from "../hooks/useSignalData";
+import { MarketPairSelector } from "./MarketPairSelector";
+import { ShockIndex } from "./ShockIndex";
+import { SectorRanking } from "./SectorRanking";
+import { LeaderReturns } from "./LeaderReturns";
+import { HistoryChart } from "./HistoryChart";
+import { SnapshotButton } from "./SnapshotButton";
+import { formatDate } from "../lib/format";
+
+export function Dashboard() {
+  const { data: index, error: indexError, loading: indexLoading } = useIndex();
+  const [selectedPair, setSelectedPair] = useState<string | null>(null);
+  const dashboardRef = useRef<HTMLDivElement>(null);
+
+  // Auto-select first pair
+  const activePair = selectedPair || index?.market_pairs[0]?.id || null;
+
+  const { data: signal, error: signalError, loading: signalLoading } = useSignalData(activePair);
+  const { data: history } = useHistoryData(activePair);
+
+  if (indexLoading) {
+    return <div className="loading">Loading market data...</div>;
+  }
+
+  if (indexError) {
+    return (
+      <div className="error-state">
+        <h2>GLOBAL MARKET PROPAGATION</h2>
+        <p>Unable to load signal data. The batch job may not have run yet.</p>
+        <p className="error-detail">{indexError}</p>
+      </div>
+    );
+  }
+
+  if (!index || index.market_pairs.length === 0) {
+    return (
+      <div className="error-state">
+        <h2>GLOBAL MARKET PROPAGATION</h2>
+        <p>No market pairs available yet.</p>
+      </div>
+    );
+  }
+
+  const pairName = index.market_pairs.find((p) => p.id === activePair)?.name || "";
+
+  return (
+    <div className="dashboard">
+      <header className="dashboard-header">
+        <div className="header-left">
+          <h1>GLOBAL MARKET PROPAGATION</h1>
+          <p className="subtitle">
+            Cross-market lead-lag signal based on subspace-regularized PCA
+          </p>
+        </div>
+        <div className="header-right">
+          {signal && (
+            <>
+              <span className="last-updated">
+                Signal for {formatDate(signal.signal_date)}
+              </span>
+              <SnapshotButton
+                targetRef={dashboardRef}
+                filename={`market-signal-${signal.signal_date}`}
+              />
+            </>
+          )}
+        </div>
+      </header>
+
+      <MarketPairSelector
+        pairs={index.market_pairs}
+        selectedId={activePair}
+        onSelect={setSelectedPair}
+      />
+
+      {signalLoading && <div className="loading">Loading {pairName} signal...</div>}
+      {signalError && <div className="error-detail">Error: {signalError}</div>}
+
+      {signal && (
+        <div className="signal-content" ref={dashboardRef}>
+          <div className="top-row">
+            <ShockIndex
+              magnitude={signal.propagation_summary.shock_magnitude}
+              factorScores={signal.propagation_summary.factor_scores}
+              leaderDate={signal.leader_summary.date}
+            />
+            <LeaderReturns
+              returns={signal.leader_summary.sector_returns}
+              date={signal.leader_summary.date}
+            />
+          </div>
+
+          <SectorRanking
+            sectors={signal.signal.sectors}
+            countryName={pairName.split("→")[1]?.trim() || "Target"}
+          />
+
+          {history && <HistoryChart entries={history.entries} />}
+
+          <footer className="signal-footer">
+            <span>
+              Based on: Nakagawa et al. &quot;Lead-lag strategies for Japanese and U.S.
+              sectors using subspace regularization PCA&quot; (SIG-FIN-036, 2026)
+            </span>
+          </footer>
+        </div>
+      )}
+    </div>
+  );
+}

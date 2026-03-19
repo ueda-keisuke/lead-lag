@@ -1,0 +1,34 @@
+name: Daily Signal Generation
+
+on:
+  schedule:
+    # 06:30 UTC Mon-Fri (after US market close, before Asia open)
+    - cron: '30 6 * * 1-5'
+  workflow_dispatch: {}
+
+jobs:
+  generate-signals:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install ./backend
+
+      - name: Generate signals
+        run: python -m src.main --config backend/config/market_pairs.yaml --output data/
+        working-directory: backend
+
+      - name: Commit and push signal data
+        run: |
+          git config user.name "lead-lag-bot"
+          git config user.email "bot@lead-lag.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update signals for $(date +%Y-%m-%d)"
+          git push

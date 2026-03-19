@@ -1,0 +1,51 @@
+parameters:
+  rolling_window_L: 60
+  lambda: 0.9
+  top_K: 3
+  quantile_q: 0.3
+  prior_subspace_full_window:
+    start: "2010-01-01"
+    end: "2014-12-31"
+
+us_sectors: &us_sectors
+  - { ticker: "XLB",  name: "Materials",              cyclical: true  }
+  - { ticker: "XLE",  name: "Energy",                 cyclical: true  }
+  - { ticker: "XLF",  name: "Financials",             cyclical: false }
+  - { ticker: "XLI",  name: "Industrials",            cyclical: true  }
+  - { ticker: "XLK",  name: "Information Technology", cyclical: true  }
+  - { ticker: "XLP",  name: "Consumer Staples",       cyclical: false }
+  - { ticker: "XLRE", name: "Real Estate",            cyclical: false }
+  - { ticker: "XLU",  name: "Utilities",              cyclical: false }
+  - { ticker: "XLV",  name: "Health Care",            cyclical: false }
+  - { ticker: "XLY",  name: "Consumer Discretionary", cyclical: true  }
+  - { ticker: "XLC",  name: "Communication Services", cyclical: false }
+
+market_pairs:
+  us_japan:
+    id: "us_japan"
+    name: "US → Japan"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "Japan"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "1617.T", name: "Foods",                      cyclical: false }
+        - { ticker: "1618.T", name: "Energy Resources",           cyclical: true  }
+        - { ticker: "1619.T", name: "Construction & Materials",   cyclical: true  }
+        - { ticker: "1620.T", name: "Materials & Chemicals",      cyclical: true  }
+        - { ticker: "1621.T", name: "Pharmaceuticals",            cyclical: false }
+        - { ticker: "1622.T", name: "Automobiles & Transport",    cyclical: true  }
+        - { ticker: "1623.T", name: "Iron & Steel / Non-ferrous", cyclical: true  }
+        - { ticker: "1624.T", name: "Machinery",                  cyclical: true  }
+        - { ticker: "1625.T", name: "Electronics & Precision",    cyclical: true  }
+        - { ticker: "1626.T", name: "IT & Services",              cyclical: false }
+        - { ticker: "1627.T", name: "Electric & Gas",             cyclical: false }
+        - { ticker: "1628.T", name: "Transport & Logistics",      cyclical: false }
+        - { ticker: "1629.T", name: "Commerce & Wholesale",       cyclical: true  }
+        - { ticker: "1630.T", name: "Retail",                     cyclical: false }
+        - { ticker: "1631.T", name: "Banks",                      cyclical: true  }
+        - { ticker: "1632.T", name: "Finance (ex Banks)",         cyclical: true  }
+        - { ticker: "1633.T", name: "Real Estate",                cyclical: true  }
