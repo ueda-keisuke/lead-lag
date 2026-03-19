@@ -104,10 +104,86 @@ export function Dashboard() {
             signalDate={signal.signal_date}
           />
 
+          <div className="about-section">
+            <h2>How it works</h2>
+            <div className="about-grid">
+              <div className="about-item">
+                <span className="about-step">1</span>
+                <div>
+                  <strong>US market closes</strong>
+                  <p>
+                    Each day, 11 US sector ETFs finish trading. Their returns
+                    capture macro shocks, policy news, and sector-level moves.
+                  </p>
+                </div>
+              </div>
+              <div className="about-item">
+                <span className="about-step">2</span>
+                <div>
+                  <strong>Extract common factors</strong>
+                  <p>
+                    Using subspace-regularized PCA, we decompose the joint
+                    US + target market correlation structure into a few
+                    stable common factors (global risk, country spread,
+                    cyclical vs defensive).
+                  </p>
+                </div>
+              </div>
+              <div className="about-item">
+                <span className="about-step">3</span>
+                <div>
+                  <strong>Project onto target market</strong>
+                  <p>
+                    Today&apos;s US sector returns are projected onto these
+                    factors and mapped to the target market&apos;s sectors,
+                    producing a predicted signal for the next trading day.
+                  </p>
+                </div>
+              </div>
+              <div className="about-item">
+                <span className="about-step">4</span>
+                <div>
+                  <strong>Rank sectors</strong>
+                  <p>
+                    Sectors are ranked by predicted signal strength.
+                    Top 30% are marked LONG (expected to outperform),
+                    bottom 30% SHORT (expected to underperform).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="about-note">
+              This is not investment advice. Signals are generated for
+              educational and research purposes. Past performance does not
+              guarantee future results.
+            </p>
+            <p className="about-paper">
+              Based on:{" "}
+              <a
+                href="https://www.jstage.jst.go.jp/article/jsaisigtwo/2026/FIN-036/2026_76/_pdf/-char/ja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Nakagawa et al. &quot;Lead-lag strategies for Japanese and U.S.
+                sectors using subspace regularization PCA&quot;
+              </a>{" "}
+              (JSAI SIG-FIN-036, 2026)
+            </p>
+          </div>
+
           <footer className="signal-footer">
             <span>
-              Based on: Nakagawa et al. &quot;Lead-lag strategies for Japanese and U.S.
-              sectors using subspace regularization PCA&quot; (SIG-FIN-036, 2026)
+              <a
+                href="https://github.com/ueda-keisuke/lead-lag"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source code
+              </a>
+              {" | "}
+              Updated daily at 06:30 UTC
+              {" | "}
+              leadlag.dev
             </span>
           </footer>
         </div>

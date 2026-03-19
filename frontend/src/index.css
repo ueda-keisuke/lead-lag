@@ -381,6 +381,93 @@ body {
   color: var(--color-long);
 }
 
+/* About Section */
+.about-section {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  padding: 24px;
+  margin-top: 12px;
+}
+
+.about-section h2 {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-dim);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.about-step {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-accent);
+  background: rgba(88, 166, 255, 0.1);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.about-item strong {
+  font-size: 13px;
+  color: var(--color-text-bright);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.about-item p {
+  font-size: 12px;
+  color: var(--color-text-dim);
+  line-height: 1.5;
+}
+
+.about-note {
+  font-size: 11px;
+  color: var(--color-neutral);
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.about-paper {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-dim);
+}
+
+.about-paper a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.about-paper a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .signal-footer {
   font-size: 11px;
@@ -389,4 +476,13 @@ body {
   text-align: center;
   border-top: 1px solid var(--color-border);
   margin-top: 8px;
+}
+
+.signal-footer a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.signal-footer a:hover {
+  text-decoration: underline;
 }
