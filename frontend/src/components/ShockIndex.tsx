@@ -26,6 +26,10 @@ export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
   const magnitudeClass =
     magnitude > 1.5 ? "shock-high" : magnitude > 0.8 ? "shock-mid" : "shock-low";
 
+  const globalScore = factorScores.global ?? 0;
+  const regime = globalScore >= 0 ? "RISK ON" : "RISK OFF";
+  const regimeClass = globalScore >= 0 ? "regime-on" : "regime-off";
+
   return (
     <div className="panel shock-panel">
       <div className="panel-header">
@@ -35,8 +39,11 @@ export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
         </span>
         <span className="date-label">{leaderDate}</span>
       </div>
-      <div className={`shock-value ${magnitudeClass}`}>
-        {formatScore(magnitude)}
+      <div className="shock-row">
+        <div className={`shock-value ${magnitudeClass}`}>
+          {formatScore(magnitude)}
+        </div>
+        <div className={`regime-label ${regimeClass}`}>{regime}</div>
       </div>
       <div className="factor-scores">
         {Object.entries(factorScores).map(([key, value]) => (

@@ -6,6 +6,7 @@ import { SectorRanking } from "./SectorRanking";
 import { LeaderReturns } from "./LeaderReturns";
 import { HistoryChart } from "./HistoryChart";
 import { ShareButtons } from "./ShareButtons";
+import { SignalSummary } from "./SignalSummary";
 import { SnapshotButton } from "./SnapshotButton";
 import { formatDate } from "../lib/format";
 
@@ -91,6 +92,11 @@ export function Dashboard() {
               date={signal.leader_summary.date}
             />
           </div>
+
+          <SignalSummary
+            sectors={signal.signal.sectors}
+            countryName={pairName.split("→")[1]?.trim() || "Target"}
+          />
 
           <SectorRanking
             sectors={signal.signal.sectors}
