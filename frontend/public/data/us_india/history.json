@@ -6,8 +6,8 @@
       "shock_magnitude": 5.3258,
       "factor_scores": {
         "global": 4.8799,
-        "country_spread": -1.965,
-        "cyclical_defensive": 0.8301
+        "country_spread": 1.965,
+        "cyclical_defensive": -0.8301
       },
       "top_long": "IT",
       "top_short": "Consumption"

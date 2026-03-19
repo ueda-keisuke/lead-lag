@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-03-18",
-  "generated_at": "2026-03-19T20:48:38.807639+00:00",
+  "generated_at": "2026-03-19T20:55:36.206494+00:00",
   "leader_summary": {
     "date": "2026-03-18",
     "sector_returns": [
@@ -136,8 +136,8 @@
     "shock_magnitude": 5.3484,
     "factor_scores": {
       "global": 4.9658,
-      "country_spread": -1.7872,
-      "cyclical_defensive": 0.8671
+      "country_spread": 1.7872,
+      "cyclical_defensive": -0.8671
     }
   }
 }

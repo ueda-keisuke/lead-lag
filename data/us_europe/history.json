@@ -6,8 +6,8 @@
       "shock_magnitude": 5.3239,
       "factor_scores": {
         "global": 4.1973,
-        "country_spread": -3.2092,
-        "cyclical_defensive": 0.6536
+        "country_spread": 3.2092,
+        "cyclical_defensive": -0.6536
       },
       "top_long": "Technology",
       "top_short": "Health Care"

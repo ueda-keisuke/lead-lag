@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_india",
   "signal_date": "2026-03-18",
-  "generated_at": "2026-03-19T20:48:38.582329+00:00",
+  "generated_at": "2026-03-19T20:55:35.696237+00:00",
   "leader_summary": {
     "date": "2026-03-18",
     "sector_returns": [
@@ -136,8 +136,8 @@
     "shock_magnitude": 5.3258,
     "factor_scores": {
       "global": 4.8799,
-      "country_spread": -1.965,
-      "cyclical_defensive": 0.8301
+      "country_spread": 1.965,
+      "cyclical_defensive": -0.8301
     }
   }
 }

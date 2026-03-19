@@ -1,11 +1,6 @@
 {
-  "last_updated": "2026-03-19T20:48:39.015624+00:00",
+  "last_updated": "2026-03-19T20:55:36.781876+00:00",
   "market_pairs": [
-    {
-      "id": "us_japan",
-      "name": "US → Japan",
-      "latest_date": "2026-03-18"
-    },
     {
       "id": "us_korea",
       "name": "US → Korea",
