@@ -1,0 +1,16 @@
+{
+  "market_pair_id": "us_australia",
+  "entries": [
+    {
+      "date": "2026-03-18",
+      "shock_magnitude": 5.332,
+      "factor_scores": {
+        "global": 4.6714,
+        "country_spread": -2.4642,
+        "cyclical_defensive": -0.7322
+      },
+      "top_long": "Technology",
+      "top_short": "Gold"
+    }
+  ]
+}

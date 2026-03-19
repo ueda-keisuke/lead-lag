@@ -49,3 +49,109 @@ market_pairs:
         - { ticker: "1631.T", name: "Banks",                      cyclical: true  }
         - { ticker: "1632.T", name: "Finance (ex Banks)",         cyclical: true  }
         - { ticker: "1633.T", name: "Real Estate",                cyclical: true  }
+
+  us_korea:
+    id: "us_korea"
+    name: "US → Korea"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "Korea"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "091160.KS", name: "Semiconductor",      cyclical: true  }
+        - { ticker: "091170.KS", name: "Banks",              cyclical: true  }
+        - { ticker: "117680.KS", name: "Steel",              cyclical: true  }
+        - { ticker: "117700.KS", name: "Construction",       cyclical: true  }
+        - { ticker: "244580.KS", name: "Bio & Healthcare",   cyclical: false }
+        - { ticker: "117460.KS", name: "Energy & Chemicals", cyclical: true  }
+        - { ticker: "266410.KS", name: "Consumer Staples",   cyclical: false }
+        - { ticker: "091180.KS", name: "Automobiles",        cyclical: true  }
+        - { ticker: "102970.KS", name: "Securities",         cyclical: true  }
+        - { ticker: "140710.KS", name: "Insurance",          cyclical: false }
+
+  us_europe:
+    id: "us_europe"
+    name: "US → Europe"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "Europe"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "EXV1.DE", name: "Banks",                cyclical: true  }
+        - { ticker: "EXV3.DE", name: "Technology",            cyclical: true  }
+        - { ticker: "EXV4.DE", name: "Health Care",           cyclical: false }
+        - { ticker: "EXV5.DE", name: "Industrial Goods",      cyclical: true  }
+        - { ticker: "EXV6.DE", name: "Energy",                cyclical: true  }
+        - { ticker: "EXV7.DE", name: "Telecommunications",    cyclical: false }
+        - { ticker: "EXV8.DE", name: "Utilities",             cyclical: false }
+        - { ticker: "EXV9.DE", name: "Food & Beverage",       cyclical: false }
+
+  us_india:
+    id: "us_india"
+    name: "US → India"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "India"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "BANKBEES.NS",    name: "Banks",              cyclical: true  }
+        - { ticker: "ITBEES.NS",      name: "IT",                 cyclical: true  }
+        - { ticker: "PSUBNKBEES.NS",  name: "PSU Banks",          cyclical: true  }
+        - { ticker: "PHARMABEES.NS",  name: "Pharma",             cyclical: false }
+        - { ticker: "INFRABEES.NS",   name: "Infrastructure",     cyclical: true  }
+        - { ticker: "CONSUMBEES.NS",  name: "Consumption",        cyclical: false }
+        - { ticker: "AUTOIETF.NS",    name: "Automobiles",        cyclical: true  }
+        - { ticker: "METALIETF.NS",   name: "Metals",             cyclical: true  }
+        - { ticker: "JUNIORBEES.NS",  name: "Nifty Next 50",      cyclical: true  }
+
+  us_hongkong:
+    id: "us_hongkong"
+    name: "US → Hong Kong"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "Hong Kong"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "3067.HK", name: "Hang Seng Tech",       cyclical: true  }
+        - { ticker: "3174.HK", name: "Healthcare",            cyclical: false }
+        - { ticker: "3173.HK", name: "Consumer",              cyclical: true  }
+        - { ticker: "3191.HK", name: "New Energy",            cyclical: true  }
+        - { ticker: "3192.HK", name: "Semiconductor",         cyclical: true  }
+        - { ticker: "2801.HK", name: "Internet / Tech",       cyclical: true  }
+        - { ticker: "2800.HK", name: "Hang Seng Index",       cyclical: true  }
+        - { ticker: "3033.HK", name: "CSOP Hang Seng Tech",   cyclical: true  }
+        - { ticker: "3110.HK", name: "Clean Energy",          cyclical: true  }
+
+  us_australia:
+    id: "us_australia"
+    name: "US → Australia"
+    leader:
+      country: "US"
+      return_type: "close_to_close"
+      sectors: *us_sectors
+    follower:
+      country: "Australia"
+      return_type: "open_to_close"
+      sectors:
+        - { ticker: "OZF.AX",  name: "Financials",           cyclical: true  }
+        - { ticker: "OZR.AX",  name: "Resources",            cyclical: true  }
+        - { ticker: "QAU.AX",  name: "Gold",                 cyclical: false }
+        - { ticker: "ATEC.AX", name: "Technology",            cyclical: true  }
+        - { ticker: "SLF.AX",  name: "Listed Property",       cyclical: true  }
+        - { ticker: "OOO.AX",  name: "Crude Oil",             cyclical: true  }
+        - { ticker: "QFN.AX",  name: "Financials (Beta)",     cyclical: true  }
+        - { ticker: "HLTH.AX", name: "Healthcare",            cyclical: false }
+        - { ticker: "FUEL.AX", name: "Energy",                cyclical: true  }
+        - { ticker: "MVA.AX",  name: "Australian Equities",   cyclical: true  }
