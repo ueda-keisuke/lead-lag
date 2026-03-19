@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_korea",
   "signal_date": "2026-03-18",
-  "generated_at": "2026-03-19T20:59:22.402717+00:00",
+  "generated_at": "2026-03-19T21:09:31.962496+00:00",
   "leader_summary": {
     "date": "2026-03-18",
     "sector_returns": [
@@ -143,8 +143,8 @@
     "shock_magnitude": 5.3084,
     "factor_scores": {
       "global": 3.4859,
-      "country_spread": -3.9288,
-      "cyclical_defensive": 0.7695
+      "country_spread": 3.9288,
+      "cyclical_defensive": -0.7695
     }
   }
 }
