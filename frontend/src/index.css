@@ -232,6 +232,12 @@ body {
   background: rgba(63, 185, 80, 0.1);
 }
 
+.regime-mid {
+  color: var(--color-shock-mid);
+  border: 1px solid var(--color-shock-mid);
+  background: rgba(210, 153, 34, 0.1);
+}
+
 .regime-off {
   color: var(--color-short);
   border: 1px solid var(--color-short);

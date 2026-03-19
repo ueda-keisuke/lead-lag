@@ -26,9 +26,18 @@ export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
   const magnitudeClass =
     magnitude > 1.5 ? "shock-high" : magnitude > 0.8 ? "shock-mid" : "shock-low";
 
-  const globalScore = factorScores.global ?? 0;
-  const regime = globalScore >= 0 ? "RISK ON" : "RISK OFF";
-  const regimeClass = globalScore >= 0 ? "regime-on" : "regime-off";
+  let regime: string;
+  let regimeClass: string;
+  if (magnitude > 2.0) {
+    regime = "STRONG SHOCK";
+    regimeClass = "regime-off";
+  } else if (magnitude > 1.0) {
+    regime = "MODERATE";
+    regimeClass = "regime-mid";
+  } else {
+    regime = "CALM";
+    regimeClass = "regime-on";
+  }
 
   return (
     <div className="panel shock-panel">
