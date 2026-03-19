@@ -505,6 +505,36 @@ body {
   line-height: 1.5;
 }
 
+.about-insight {
+  margin-bottom: 16px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.about-insight p {
+  margin-bottom: 10px;
+}
+
+.about-keys {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.about-keys li {
+  padding: 8px 0 8px 16px;
+  border-left: 2px solid var(--color-accent);
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.about-keys strong {
+  color: var(--color-text-bright);
+}
+
 .about-note {
   font-size: 11px;
   color: var(--color-neutral);

@@ -152,6 +152,48 @@ export function Dashboard() {
                 </div>
               </div>
             </div>
+            <h2>Why this works</h2>
+            <div className="about-insight">
+              <p>
+                Financial data is extremely noisy — daily returns are roughly
+                10% signal and 90% noise. Most ML approaches (random forests,
+                neural networks, etc.) try to learn patterns from raw data and
+                end up fitting the noise.
+              </p>
+              <p>
+                This method takes the opposite approach:{" "}
+                <strong>define the structure first, then estimate within it.</strong>
+              </p>
+              <ul className="about-keys">
+                <li>
+                  <strong>Structure before estimation</strong> — Instead of
+                  letting the model discover patterns freely, we tell it what
+                  kinds of patterns to look for: global risk, country spread,
+                  and cyclical vs defensive. This eliminates impossible
+                  structures before estimation begins.
+                </li>
+                <li>
+                  <strong>Dimensionality reduction via PCA</strong> — 11 US
+                  sectors × 17 target sectors = 187 parameters to estimate.
+                  PCA compresses this into 3 common factors. Fewer parameters
+                  means less overfitting.
+                </li>
+                <li>
+                  <strong>Prior knowledge through regularization</strong> — The
+                  model blends data-driven estimates with economic priors
+                  (λ=0.9), heavily favoring structure over noise. This is what
+                  makes the factors stable day to day.
+                </li>
+              </ul>
+              <p>
+                The key insight: in finance,{" "}
+                <strong>the right model beats a powerful algorithm.</strong>{" "}
+                This is the same philosophy behind the Fama-French factor model —
+                define economically meaningful axes, then let the data fill in
+                the weights.
+              </p>
+            </div>
+
             <p className="about-note">
               This is not investment advice. Signals are generated for
               educational and research purposes. Past performance does not
