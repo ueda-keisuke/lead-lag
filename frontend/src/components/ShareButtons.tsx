@@ -15,6 +15,15 @@ export function ShareButtons({ pairId, signalDate }: Props) {
   return (
     <div className="share-buttons">
       <a
+        href={`https://twitter.com/intent/tweet?text=${text}&url=${pageUrl}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="share-btn share-x"
+        title="Share on X"
+      >
+        X
+      </a>
+      <a
         href={`https://www.reddit.com/submit?url=${pageUrl}&title=${text}`}
         target="_blank"
         rel="noopener noreferrer"
