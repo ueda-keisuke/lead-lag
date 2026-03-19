@@ -1,5 +1,6 @@
 import type { SectorReturn } from "../types/signal";
 import { formatPercent } from "../lib/format";
+import { Tooltip } from "./Tooltip";
 
 interface Props {
   returns: SectorReturn[];
@@ -12,7 +13,10 @@ export function LeaderReturns({ returns, date }: Props) {
   return (
     <div className="panel leader-panel">
       <div className="panel-header">
-        <span>US SECTOR RETURNS</span>
+        <span>
+          US SECTOR RETURNS{" "}
+          <Tooltip text="Yesterday's close-to-close returns for 11 US sector ETFs. These are the input to the model — the signal below is derived from how these sectors moved." />
+        </span>
         <span className="date-label">{date}</span>
       </div>
       <div className="leader-grid">

@@ -1,4 +1,5 @@
 import { formatScore } from "../lib/format";
+import { Tooltip } from "./Tooltip";
 
 interface Props {
   magnitude: number;
@@ -12,6 +13,15 @@ const FACTOR_LABELS: Record<string, string> = {
   cyclical_defensive: "Cyclical / Defensive",
 };
 
+const FACTOR_TIPS: Record<string, string> = {
+  global:
+    "How much the entire US market moved together. A large positive value means broad risk-on; large negative means risk-off.",
+  country_spread:
+    "Relative strength between the US and the target market. Positive means the US led upward relative to the target.",
+  cyclical_defensive:
+    "Whether cyclical sectors (tech, materials, industrials) outperformed defensive ones (utilities, healthcare, staples).",
+};
+
 export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
   const magnitudeClass =
     magnitude > 1.5 ? "shock-high" : magnitude > 0.8 ? "shock-mid" : "shock-low";
@@ -19,7 +29,10 @@ export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
   return (
     <div className="panel shock-panel">
       <div className="panel-header">
-        <span>US SHOCK INDEX</span>
+        <span>
+          US SHOCK INDEX{" "}
+          <Tooltip text="How strongly the US market moved yesterday. Higher values mean a bigger shock that is more likely to propagate to other markets." />
+        </span>
         <span className="date-label">{leaderDate}</span>
       </div>
       <div className={`shock-value ${magnitudeClass}`}>
@@ -28,7 +41,10 @@ export function ShockIndex({ magnitude, factorScores, leaderDate }: Props) {
       <div className="factor-scores">
         {Object.entries(factorScores).map(([key, value]) => (
           <div key={key} className="factor-row">
-            <span className="factor-name">{FACTOR_LABELS[key] || key}</span>
+            <span className="factor-name">
+              {FACTOR_LABELS[key] || key}{" "}
+              {FACTOR_TIPS[key] && <Tooltip text={FACTOR_TIPS[key]} />}
+            </span>
             <span
               className="factor-value"
               style={{ color: value >= 0 ? "var(--color-long)" : "var(--color-short)" }}

@@ -1,5 +1,6 @@
 import type { SectorSignal } from "../types/signal";
 import { formatScore, positionColor } from "../lib/format";
+import { Tooltip } from "./Tooltip";
 
 interface Props {
   sectors: SectorSignal[];
@@ -10,7 +11,10 @@ export function SectorRanking({ sectors, countryName }: Props) {
   return (
     <div className="panel sector-panel">
       <div className="panel-header">
-        <span>{countryName.toUpperCase()} SECTOR SIGNALS</span>
+        <span>
+          {countryName.toUpperCase()} SECTOR SIGNALS{" "}
+          <Tooltip text="Predicted relative strength of each sector for the next trading day, based on yesterday's US market moves. LONG = expected to outperform, SHORT = expected to underperform. The signal does not predict absolute returns — it predicts which sectors will do better or worse than others." />
+        </span>
         <span className="date-label">Tomorrow&apos;s Expected Impact</span>
       </div>
       <table className="sector-table">

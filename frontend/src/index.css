@@ -81,6 +81,65 @@ body {
   margin-bottom: 16px;
 }
 
+/* Tooltip */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+
+.tooltip-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-text-dim);
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 4px;
+  transition: all 0.15s;
+}
+
+.tooltip-trigger:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.tooltip-content {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 10px 12px;
+  background: #1c2333;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #1c2333;
+}
+
 .pair-tab {
   font-family: var(--font-mono);
   font-size: 13px;
