@@ -192,17 +192,26 @@ def main():
         if result:
             results.append(result)
 
-    # Write index
-    if results:
-        pair_index = [
-            {
-                "id": r.market_pair_id,
-                "name": next(p.name for p in pairs if p.id == r.market_pair_id),
-                "latest_date": r.signal_date,
-            }
-            for r in results
-        ]
-        write_index(pair_index, output_dir)
+    # Write index — merge with existing entries so failed pairs aren't removed
+    index_path = output_dir / "index.json"
+    existing_pairs: dict[str, dict] = {}
+    if index_path.exists():
+        import json
+        with open(index_path) as f:
+            existing = json.load(f)
+        for p in existing.get("market_pairs", []):
+            existing_pairs[p["id"]] = p
+
+    # Update with new results
+    for r in results:
+        existing_pairs[r.market_pair_id] = {
+            "id": r.market_pair_id,
+            "name": next(p.name for p in pairs if p.id == r.market_pair_id),
+            "latest_date": r.signal_date,
+        }
+
+    if existing_pairs:
+        write_index(list(existing_pairs.values()), output_dir)
         print(f"\nDone. Generated signals for {len(results)} market pair(s).")
     else:
         print("\nNo signals generated.")
