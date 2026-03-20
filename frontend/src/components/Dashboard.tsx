@@ -231,14 +231,6 @@ export function Dashboard() {
 
           <footer className="signal-footer">
             <span>
-              <a
-                href="https://github.com/ueda-keisuke/lead-lag"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source code
-              </a>
-              {" | "}
               Updated daily at 06:30 UTC
               {" | "}
               leadlag.dev
