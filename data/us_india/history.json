@@ -11,6 +11,17 @@
       },
       "top_long": "IT",
       "top_short": "Consumption"
+    },
+    {
+      "date": "2026-03-19",
+      "shock_magnitude": 1.2905,
+      "factor_scores": {
+        "global": 1.2324,
+        "country_spread": 0.3179,
+        "cyclical_defensive": -0.2132
+      },
+      "top_long": "IT",
+      "top_short": "Consumption"
     }
   ]
 }
