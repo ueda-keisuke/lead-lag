@@ -152,11 +152,15 @@ export function Dashboard() {
               <div className="about-item">
                 <span className="about-step">4</span>
                 <div>
-                  <strong>Rank sectors</strong>
+                  <strong>Rank and trade</strong>
                   <p>
-                    Sectors are ranked by predicted signal strength.
-                    Top 30% are marked LONG (expected to outperform),
-                    bottom 30% SHORT (expected to underperform).
+                    Sectors are ranked by signal strength. The paper&apos;s strategy
+                    buys the top 30% (LONG) and short-sells the bottom 30% (SHORT)
+                    in equal weight. For example, with $10,000: buy $1,000 each of
+                    the 5 strongest sectors, and short-sell $1,000 each of the 5
+                    weakest. This creates a market-neutral portfolio that profits
+                    from relative sector performance regardless of overall market
+                    direction.
                   </p>
                 </div>
               </div>
@@ -206,7 +210,10 @@ export function Dashboard() {
             <p className="about-note">
               This is not investment advice. Signals are generated for
               educational and research purposes. Past performance does not
-              guarantee future results.
+              guarantee future results. Backtest returns do not include
+              transaction costs, bid-ask spreads, or market impact.
+              Short-selling sector ETFs may be difficult or unavailable
+              for retail investors in some markets.
             </p>
             <p className="about-paper">
               Based on:{" "}
