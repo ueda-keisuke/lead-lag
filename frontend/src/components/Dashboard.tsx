@@ -5,6 +5,7 @@ import { ShockIndex } from "./ShockIndex";
 import { SectorRanking } from "./SectorRanking";
 import { LeaderReturns } from "./LeaderReturns";
 import { HistoryChart } from "./HistoryChart";
+import { BacktestChart } from "./BacktestChart";
 import { ShareButtons } from "./ShareButtons";
 import { SignalSummary } from "./SignalSummary";
 import { SnapshotButton } from "./SnapshotButton";
@@ -104,6 +105,8 @@ export function Dashboard() {
           />
 
           {history && <HistoryChart entries={history.entries} />}
+
+          <BacktestChart pairId={signal.market_pair_id} />
 
           <ShareButtons
             pairId={signal.market_pair_id}
