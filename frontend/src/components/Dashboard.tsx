@@ -231,7 +231,7 @@ export function Dashboard() {
 
           <footer className="signal-footer">
             <span>
-              Updated daily at 06:30 UTC
+              Updated daily at 22:00 UTC
               {" | "}
               leadlag.dev
             </span>

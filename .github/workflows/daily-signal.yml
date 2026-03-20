@@ -2,8 +2,9 @@ name: Daily Signal Generation
 
 on:
   schedule:
-    # 06:30 UTC Mon-Fri (after US market close, before Asia open)
-    - cron: '30 6 * * 1-5'
+    # 22:00 UTC Mon-Fri (after US market close + data lag, before Asia open)
+    # = 07:00 JST next day, 15:00 PDT same day
+    - cron: '0 22 * * 1-5'
   workflow_dispatch: {}
 
 jobs:
