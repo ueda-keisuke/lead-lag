@@ -1,136 +1,136 @@
 {
   "market_pair_id": "us_korea",
-  "signal_date": "2026-03-19",
-  "generated_at": "2026-03-20T06:49:35.385945+00:00",
+  "signal_date": "2026-03-20",
+  "generated_at": "2026-03-21T00:05:48.599787+00:00",
   "leader_summary": {
-    "date": "2026-03-19",
+    "date": "2026-03-20",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -1.53
+        "return_pct": -1.59
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 1.59
+        "return_pct": -0.08
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": 0.04
+        "return_pct": 0.18
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.68
+        "return_pct": -1.46
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 0.34
+        "return_pct": -2.27
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": -0.81
+        "return_pct": -0.83
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": -0.24
+        "return_pct": -3.17
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": -0.41
+        "return_pct": -4.06
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.36
+        "return_pct": -0.87
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -0.79
+        "return_pct": -1.79
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -0.46
+        "return_pct": -0.8
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "091160.KS",
-        "name": "Semiconductor",
-        "signal_score": 0.0234,
+        "ticker": "117700.KS",
+        "name": "Construction",
+        "signal_score": 0.1024,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "091170.KS",
-        "name": "Banks",
-        "signal_score": 0.0232,
+        "ticker": "091160.KS",
+        "name": "Semiconductor",
+        "signal_score": 0.0933,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "117700.KS",
-        "name": "Construction",
-        "signal_score": 0.0231,
+        "ticker": "091170.KS",
+        "name": "Banks",
+        "signal_score": 0.093,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "117680.KS",
         "name": "Steel",
-        "signal_score": 0.0227,
+        "signal_score": 0.0922,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "117460.KS",
         "name": "Energy & Chemicals",
-        "signal_score": 0.022,
+        "signal_score": 0.0889,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "091180.KS",
         "name": "Automobiles",
-        "signal_score": 0.0215,
+        "signal_score": 0.0844,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "102970.KS",
         "name": "Securities",
-        "signal_score": 0.0184,
+        "signal_score": 0.0738,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "244580.KS",
         "name": "Bio & Healthcare",
-        "signal_score": -0.0531,
+        "signal_score": -0.2324,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "140710.KS",
         "name": "Insurance",
-        "signal_score": -0.0579,
+        "signal_score": -0.2501,
         "position": "short",
         "rank": 9
       },
       {
         "ticker": "266410.KS",
         "name": "Consumer Staples",
-        "signal_score": -0.0596,
+        "signal_score": -0.2559,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.3219,
+    "shock_magnitude": 5.4315,
     "factor_scores": {
-      "global": 0.8605,
-      "country_spread": 0.9855,
-      "cyclical_defensive": -0.1896
+      "global": 3.5827,
+      "country_spread": 4.0011,
+      "cyclical_defensive": -0.8102
     }
   }
 }

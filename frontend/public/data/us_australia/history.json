@@ -22,6 +22,17 @@
       },
       "top_long": "Technology",
       "top_short": "Gold"
+    },
+    {
+      "date": "2026-03-20",
+      "shock_magnitude": 5.4255,
+      "factor_scores": {
+        "global": 5.3696,
+        "country_spread": 0.2191,
+        "cyclical_defensive": 0.7452
+      },
+      "top_long": "Technology",
+      "top_short": "Gold"
     }
   ]
 }
