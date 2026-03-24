@@ -33,6 +33,17 @@
       },
       "top_long": "Technology",
       "top_short": "Gold"
+    },
+    {
+      "date": "2026-03-23",
+      "shock_magnitude": 2.1548,
+      "factor_scores": {
+        "global": -1.7503,
+        "country_spread": -0.4168,
+        "cyclical_defensive": 1.1858
+      },
+      "top_long": "Crude Oil",
+      "top_short": "Gold"
     }
   ]
 }
