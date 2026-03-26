@@ -55,6 +55,17 @@
       },
       "top_long": "Semiconductor",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-03-25",
+      "shock_magnitude": 1.6617,
+      "factor_scores": {
+        "global": -1.6181,
+        "country_spread": -0.3411,
+        "cyclical_defensive": -0.1629
+      },
+      "top_long": "New Energy",
+      "top_short": "Healthcare"
     }
   ]
 }
