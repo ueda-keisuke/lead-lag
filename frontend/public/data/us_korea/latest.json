@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_korea",
   "signal_date": "2026-03-26",
-  "generated_at": "2026-03-27T20:41:28.186395+00:00",
+  "generated_at": "2026-03-27T23:43:24.487543+00:00",
   "leader_summary": {
     "date": "2026-03-26",
     "sector_returns": [
@@ -67,14 +67,14 @@
       {
         "ticker": "244580.KS",
         "name": "Bio & Healthcare",
-        "signal_score": 0.2387,
+        "signal_score": 0.2386,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "266410.KS",
         "name": "Consumer Staples",
-        "signal_score": 0.2372,
+        "signal_score": 0.2371,
         "position": "long",
         "rank": 2
       },
@@ -102,14 +102,14 @@
       {
         "ticker": "091170.KS",
         "name": "Banks",
-        "signal_score": -0.0765,
+        "signal_score": -0.0764,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "117700.KS",
         "name": "Construction",
-        "signal_score": -0.0767,
+        "signal_score": -0.0768,
         "position": "neutral",
         "rank": 7
       },
@@ -123,7 +123,7 @@
       {
         "ticker": "091180.KS",
         "name": "Automobiles",
-        "signal_score": -0.0925,
+        "signal_score": -0.0926,
         "position": "short",
         "rank": 9
       },
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 2.9765,
+    "shock_magnitude": 2.9772,
     "factor_scores": {
-      "global": 1.9172,
-      "country_spread": 2.1632,
-      "cyclical_defensive": 0.7103
+      "global": 1.9193,
+      "country_spread": 2.1622,
+      "cyclical_defensive": 0.7106
     }
   }
 }

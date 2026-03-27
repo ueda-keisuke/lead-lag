@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_india",
   "signal_date": "2026-03-26",
-  "generated_at": "2026-03-27T20:41:30.363659+00:00",
+  "generated_at": "2026-03-27T23:43:28.122769+00:00",
   "leader_summary": {
     "date": "2026-03-26",
     "sector_returns": [
@@ -67,7 +67,7 @@
       {
         "ticker": "PHARMABEES.NS",
         "name": "Pharma",
-        "signal_score": 0.2833,
+        "signal_score": 0.2831,
         "position": "long",
         "rank": 1
       },
@@ -81,14 +81,14 @@
       {
         "ticker": "AUTOIETF.NS",
         "name": "Automobiles",
-        "signal_score": -0.0572,
+        "signal_score": -0.0575,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "JUNIORBEES.NS",
         "name": "Nifty Next 50",
-        "signal_score": -0.0601,
+        "signal_score": -0.06,
         "position": "neutral",
         "rank": 4
       },
@@ -102,28 +102,28 @@
       {
         "ticker": "INFRABEES.NS",
         "name": "Infrastructure",
-        "signal_score": -0.0657,
+        "signal_score": -0.0659,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "BANKBEES.NS",
         "name": "Banks",
-        "signal_score": -0.0748,
+        "signal_score": -0.0747,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": -0.0902,
+        "signal_score": -0.0905,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "METALIETF.NS",
         "name": "Metals",
-        "signal_score": -0.0986,
+        "signal_score": -0.0984,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 3.0491,
+    "shock_magnitude": 3.0498,
     "factor_scores": {
-      "global": 2.9063,
-      "country_spread": 0.4669,
-      "cyclical_defensive": 0.7954
+      "global": 2.8998,
+      "country_spread": 0.5097,
+      "cyclical_defensive": 0.7955
     }
   }
 }

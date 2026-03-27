@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-03-26",
-  "generated_at": "2026-03-27T20:41:29.375585+00:00",
+  "generated_at": "2026-03-27T23:43:26.662189+00:00",
   "leader_summary": {
     "date": "2026-03-26",
     "sector_returns": [
@@ -67,35 +67,35 @@
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": 0.1528,
+        "signal_score": 0.153,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": 0.1506,
+        "signal_score": 0.1507,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": 0.1431,
+        "signal_score": 0.1434,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": 0.1257,
+        "signal_score": 0.1258,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": -0.1381,
+        "signal_score": -0.1382,
         "position": "neutral",
         "rank": 5
       },
@@ -116,7 +116,7 @@
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": -0.2195,
+        "signal_score": -0.2196,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 2.9588,
+    "shock_magnitude": 2.9595,
     "factor_scores": {
-      "global": 2.2898,
-      "country_spread": 1.7124,
-      "cyclical_defensive": 0.7608
+      "global": 2.2901,
+      "country_spread": 1.7131,
+      "cyclical_defensive": 0.7615
     }
   }
 }

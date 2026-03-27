@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_australia",
   "signal_date": "2026-03-26",
-  "generated_at": "2026-03-27T20:41:32.842086+00:00",
+  "generated_at": "2026-03-27T23:43:31.198848+00:00",
   "leader_summary": {
     "date": "2026-03-26",
     "sector_returns": [
@@ -67,14 +67,14 @@
       {
         "ticker": "HLTH.AX",
         "name": "Healthcare",
-        "signal_score": 0.2779,
+        "signal_score": 0.2778,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "QAU.AX",
         "name": "Gold",
-        "signal_score": 0.271,
+        "signal_score": 0.2712,
         "position": "long",
         "rank": 2
       },
@@ -88,7 +88,7 @@
       {
         "ticker": "ATEC.AX",
         "name": "Technology",
-        "signal_score": -0.0383,
+        "signal_score": -0.0385,
         "position": "neutral",
         "rank": 4
       },
@@ -102,7 +102,7 @@
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": -0.0454,
+        "signal_score": -0.0455,
         "position": "neutral",
         "rank": 6
       },
@@ -130,7 +130,7 @@
       {
         "ticker": "OOO.AX",
         "name": "Crude Oil",
-        "signal_score": -0.1133,
+        "signal_score": -0.1132,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 2.9878,
+    "shock_magnitude": 2.9885,
     "factor_scores": {
-      "global": 2.251,
-      "country_spread": 1.8047,
-      "cyclical_defensive": -0.7766
+      "global": 2.2522,
+      "country_spread": 1.8042,
+      "cyclical_defensive": -0.777
     }
   }
 }

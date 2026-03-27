@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-03-26",
-  "generated_at": "2026-03-27T20:41:31.463268+00:00",
+  "generated_at": "2026-03-27T23:43:29.654102+00:00",
   "leader_summary": {
     "date": "2026-03-26",
     "sector_returns": [
@@ -67,14 +67,14 @@
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": 0.343,
+        "signal_score": 0.3428,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "3110.HK",
         "name": "Clean Energy",
-        "signal_score": -0.0189,
+        "signal_score": -0.0186,
         "position": "long",
         "rank": 2
       },
@@ -88,42 +88,42 @@
       {
         "ticker": "2801.HK",
         "name": "Internet / Tech",
-        "signal_score": -0.0274,
+        "signal_score": -0.0275,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "3173.HK",
         "name": "Consumer",
-        "signal_score": -0.0292,
+        "signal_score": -0.029,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "3033.HK",
         "name": "CSOP Hang Seng Tech",
-        "signal_score": -0.0293,
+        "signal_score": -0.0295,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "3067.HK",
         "name": "Hang Seng Tech",
-        "signal_score": -0.0309,
+        "signal_score": -0.031,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "3192.HK",
         "name": "Semiconductor",
-        "signal_score": -0.046,
+        "signal_score": -0.0465,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "3191.HK",
         "name": "New Energy",
-        "signal_score": -0.0497,
+        "signal_score": -0.0498,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 3.0128,
+    "shock_magnitude": 3.0138,
     "factor_scores": {
-      "global": 2.7234,
-      "country_spread": 0.979,
-      "cyclical_defensive": 0.8377
+      "global": 2.7356,
+      "country_spread": 0.9464,
+      "cyclical_defensive": 0.8387
     }
   }
 }
