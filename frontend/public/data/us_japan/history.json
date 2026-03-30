@@ -77,6 +77,17 @@
       },
       "top_long": "Retail",
       "top_short": "Automobiles & Transport"
+    },
+    {
+      "date": "2026-03-27",
+      "shock_magnitude": 2.9871,
+      "factor_scores": {
+        "global": 0.7651,
+        "country_spread": 2.8873,
+        "cyclical_defensive": 0.0367
+      },
+      "top_long": "Electric & Gas",
+      "top_short": "Automobiles & Transport"
     }
   ]
 }

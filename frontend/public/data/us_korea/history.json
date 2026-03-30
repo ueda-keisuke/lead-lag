@@ -77,6 +77,17 @@
       },
       "top_long": "Bio & Healthcare",
       "top_short": "Semiconductor"
+    },
+    {
+      "date": "2026-03-27",
+      "shock_magnitude": 2.9289,
+      "factor_scores": {
+        "global": 1.9661,
+        "country_spread": 2.1657,
+        "cyclical_defensive": 0.1498
+      },
+      "top_long": "Bio & Healthcare",
+      "top_short": "Semiconductor"
     }
   ]
 }
