@@ -124,11 +124,11 @@
     },
     {
       "date": "2026-04-02",
-      "shock_magnitude": 1.0483,
+      "shock_magnitude": 1.0484,
       "factor_scores": {
-        "global": -0.4846,
-        "country_spread": -0.1058,
-        "cyclical_defensive": 0.9235
+        "global": -0.4826,
+        "country_spread": -0.1148,
+        "cyclical_defensive": 0.9236
       },
       "top_long": "Consumption",
       "top_short": "IT"

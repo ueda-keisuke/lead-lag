@@ -1,64 +1,64 @@
 {
   "market_pair_id": "us_korea",
-  "signal_date": "2026-04-02",
-  "generated_at": "2026-04-03T23:44:20.004871+00:00",
+  "signal_date": "2026-04-03",
+  "generated_at": "2026-04-06T23:45:22.281859+00:00",
   "leader_summary": {
-    "date": "2026-04-02",
+    "date": "2026-04-03",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -0.1
+        "return_pct": 0.0
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 0.47
+        "return_pct": 0.0
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": 0.18
+        "return_pct": 0.0
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.4
+        "return_pct": 0.0
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 0.8
+        "return_pct": 0.0
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.53
+        "return_pct": 0.0
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 1.61
+        "return_pct": 0.0
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.5
+        "return_pct": 0.0
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.62
+        "return_pct": 0.0
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -1.5
+        "return_pct": 0.0
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": 0.41
+        "return_pct": 0.0
       }
     ]
   },
@@ -67,70 +67,70 @@
       {
         "ticker": "266410.KS",
         "name": "Consumer Staples",
-        "signal_score": 0.2776,
+        "signal_score": 0.0148,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "244580.KS",
         "name": "Bio & Healthcare",
-        "signal_score": 0.2647,
+        "signal_score": 0.0144,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "140710.KS",
         "name": "Insurance",
-        "signal_score": 0.2635,
+        "signal_score": 0.0134,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "117460.KS",
         "name": "Energy & Chemicals",
-        "signal_score": -0.098,
+        "signal_score": -0.0092,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "102970.KS",
-        "name": "Securities",
-        "signal_score": -0.1028,
+        "ticker": "091170.KS",
+        "name": "Banks",
+        "signal_score": -0.0096,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "117680.KS",
-        "name": "Steel",
-        "signal_score": -0.1061,
+        "ticker": "102970.KS",
+        "name": "Securities",
+        "signal_score": -0.0098,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "091170.KS",
-        "name": "Banks",
-        "signal_score": -0.107,
+        "ticker": "117700.KS",
+        "name": "Construction",
+        "signal_score": -0.0098,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "117700.KS",
-        "name": "Construction",
-        "signal_score": -0.109,
+        "ticker": "117680.KS",
+        "name": "Steel",
+        "signal_score": -0.0098,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "091180.KS",
-        "name": "Automobiles",
-        "signal_score": -0.1171,
+        "ticker": "091160.KS",
+        "name": "Semiconductor",
+        "signal_score": -0.0107,
         "position": "short",
         "rank": 9
       },
       {
-        "ticker": "091160.KS",
-        "name": "Semiconductor",
-        "signal_score": -0.1179,
+        "ticker": "091180.KS",
+        "name": "Automobiles",
+        "signal_score": -0.0111,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0208,
+    "shock_magnitude": 0.1144,
     "factor_scores": {
-      "global": -0.3475,
-      "country_spread": -0.4015,
-      "cyclical_defensive": 0.8718
+      "global": 0.0587,
+      "country_spread": 0.0815,
+      "cyclical_defensive": 0.0547
     }
   }
 }

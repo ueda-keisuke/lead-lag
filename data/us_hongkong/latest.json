@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-04-02",
-  "generated_at": "2026-04-03T23:44:23.346466+00:00",
+  "generated_at": "2026-04-06T23:45:26.978074+00:00",
   "leader_summary": {
     "date": "2026-04-02",
     "sector_returns": [
@@ -67,7 +67,7 @@
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": 0.4214,
+        "signal_score": 0.4215,
         "position": "long",
         "rank": 1
       },
@@ -135,9 +135,9 @@
   "propagation_summary": {
     "shock_magnitude": 1.1409,
     "factor_scores": {
-      "global": -0.4914,
-      "country_spread": -0.0914,
-      "cyclical_defensive": -1.0256
+      "global": -0.4911,
+      "country_spread": -0.0928,
+      "cyclical_defensive": 1.0256
     }
   }
 }

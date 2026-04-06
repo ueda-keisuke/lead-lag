@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_india",
   "signal_date": "2026-04-02",
-  "generated_at": "2026-04-03T23:44:22.253517+00:00",
+  "generated_at": "2026-04-06T23:45:25.451080+00:00",
   "leader_summary": {
     "date": "2026-04-02",
     "sector_returns": [
@@ -74,14 +74,14 @@
       {
         "ticker": "PHARMABEES.NS",
         "name": "Pharma",
-        "signal_score": 0.3168,
+        "signal_score": 0.3167,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "AUTOIETF.NS",
         "name": "Automobiles",
-        "signal_score": -0.0557,
+        "signal_score": -0.0558,
         "position": "neutral",
         "rank": 3
       },
@@ -102,7 +102,7 @@
       {
         "ticker": "PSUBNKBEES.NS",
         "name": "PSU Banks",
-        "signal_score": -0.0779,
+        "signal_score": -0.078,
         "position": "neutral",
         "rank": 6
       },
@@ -123,7 +123,7 @@
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": -0.132,
+        "signal_score": -0.1319,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0483,
+    "shock_magnitude": 1.0484,
     "factor_scores": {
-      "global": -0.4846,
-      "country_spread": -0.1058,
-      "cyclical_defensive": 0.9235
+      "global": -0.4826,
+      "country_spread": -0.1148,
+      "cyclical_defensive": 0.9236
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_australia",
   "signal_date": "2026-04-02",
-  "generated_at": "2026-04-03T23:44:24.744903+00:00",
+  "generated_at": "2026-04-06T23:45:29.018021+00:00",
   "leader_summary": {
     "date": "2026-04-02",
     "sector_returns": [
@@ -67,70 +67,70 @@
       {
         "ticker": "QAU.AX",
         "name": "Gold",
-        "signal_score": 0.3536,
+        "signal_score": 0.354,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "HLTH.AX",
         "name": "Healthcare",
-        "signal_score": 0.3403,
+        "signal_score": 0.3406,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "OZR.AX",
         "name": "Resources",
-        "signal_score": -0.0529,
+        "signal_score": -0.0523,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "MVA.AX",
         "name": "Australian Equities",
-        "signal_score": -0.0614,
+        "signal_score": -0.0607,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": -0.0614,
+        "signal_score": -0.0608,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "OZF.AX",
         "name": "Financials",
-        "signal_score": -0.062,
+        "signal_score": -0.0613,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "SLF.AX",
         "name": "Listed Property",
-        "signal_score": -0.0672,
+        "signal_score": -0.0668,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "ATEC.AX",
         "name": "Technology",
-        "signal_score": -0.077,
+        "signal_score": -0.0768,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "FUEL.AX",
         "name": "Energy",
-        "signal_score": -0.0804,
+        "signal_score": -0.0807,
         "position": "short",
         "rank": 9
       },
       {
         "ticker": "OOO.AX",
         "name": "Crude Oil",
-        "signal_score": -0.1206,
+        "signal_score": -0.1225,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0504,
+    "shock_magnitude": 1.0499,
     "factor_scores": {
-      "global": -0.3865,
-      "country_spread": -0.3342,
-      "cyclical_defensive": -0.9178
+      "global": -0.3898,
+      "country_spread": -0.3291,
+      "cyclical_defensive": -0.9176
     }
   }
 }
