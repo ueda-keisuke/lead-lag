@@ -132,6 +132,17 @@
       },
       "top_long": "Gold",
       "top_short": "Crude Oil"
+    },
+    {
+      "date": "2026-04-06",
+      "shock_magnitude": 0.878,
+      "factor_scores": {
+        "global": -0.6818,
+        "country_spread": -0.5379,
+        "cyclical_defensive": 0.1289
+      },
+      "top_long": "Crude Oil",
+      "top_short": "Gold"
     }
   ]
 }

@@ -143,6 +143,17 @@
       },
       "top_long": "Consumer Staples",
       "top_short": "Automobiles"
+    },
+    {
+      "date": "2026-04-06",
+      "shock_magnitude": 0.8762,
+      "factor_scores": {
+        "global": -0.5799,
+        "country_spread": -0.6463,
+        "cyclical_defensive": -0.1173
+      },
+      "top_long": "Automobiles",
+      "top_short": "Bio & Healthcare"
     }
   ]
 }
