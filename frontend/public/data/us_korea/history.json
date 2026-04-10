@@ -176,6 +176,17 @@
       },
       "top_long": "Insurance",
       "top_short": "Energy & Chemicals"
+    },
+    {
+      "date": "2026-04-09",
+      "shock_magnitude": 1.1888,
+      "factor_scores": {
+        "global": -0.7442,
+        "country_spread": -0.8822,
+        "cyclical_defensive": 0.2848
+      },
+      "top_long": "Insurance",
+      "top_short": "Semiconductor"
     }
   ]
 }
