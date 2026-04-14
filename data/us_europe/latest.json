@@ -1,64 +1,64 @@
 {
   "market_pair_id": "us_europe",
-  "signal_date": "2026-04-10",
-  "generated_at": "2026-04-13T23:46:10.115918+00:00",
+  "signal_date": "2026-04-13",
+  "generated_at": "2026-04-14T23:46:04.970516+00:00",
   "leader_summary": {
-    "date": "2026-04-10",
+    "date": "2026-04-13",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 0.56
+        "return_pct": 0.44
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": -0.68
+        "return_pct": 0.3
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -1.09
+        "return_pct": 1.75
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.39
+        "return_pct": 0.71
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 0.39
+        "return_pct": 2.1
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": -1.29
+        "return_pct": -1.0
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 0.21
+        "return_pct": 0.47
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": -0.4
+        "return_pct": -1.21
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -1.35
+        "return_pct": 0.45
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": 0.13
+        "return_pct": 0.91
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -0.28
+        "return_pct": 0.76
       }
     ]
   },
@@ -67,56 +67,56 @@
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": 0.2098,
+        "signal_score": 0.1846,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV1.DE",
         "name": "Banks",
-        "signal_score": 0.2094,
+        "signal_score": 0.1579,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": 0.1892,
+        "signal_score": 0.1516,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": 0.1755,
+        "signal_score": 0.129,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": -0.1664,
+        "signal_score": -0.1081,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": -0.1695,
+        "signal_score": -0.1285,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": -0.1966,
+        "signal_score": -0.1322,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": -0.1996,
+        "signal_score": -0.1445,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.6582,
+    "shock_magnitude": 1.3342,
     "factor_scores": {
-      "global": 1.0955,
-      "country_spread": 0.907,
-      "cyclical_defensive": -0.8526
+      "global": -0.9364,
+      "country_spread": -0.6843,
+      "cyclical_defensive": -0.6594
     }
   }
 }

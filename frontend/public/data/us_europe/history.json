@@ -187,6 +187,17 @@
       },
       "top_long": "Energy",
       "top_short": "Telecommunications"
+    },
+    {
+      "date": "2026-04-13",
+      "shock_magnitude": 1.3342,
+      "factor_scores": {
+        "global": -0.9364,
+        "country_spread": -0.6843,
+        "cyclical_defensive": -0.6594
+      },
+      "top_long": "Energy",
+      "top_short": "Telecommunications"
     }
   ]
 }

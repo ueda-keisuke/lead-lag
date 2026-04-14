@@ -198,6 +198,17 @@
       },
       "top_long": "Semiconductor",
       "top_short": "Consumer Staples"
+    },
+    {
+      "date": "2026-04-13",
+      "shock_magnitude": 1.3692,
+      "factor_scores": {
+        "global": -0.7742,
+        "country_spread": -0.8944,
+        "cyclical_defensive": -0.6894
+      },
+      "top_long": "Semiconductor",
+      "top_short": "Consumer Staples"
     }
   ]
 }
