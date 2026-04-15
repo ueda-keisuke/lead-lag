@@ -198,6 +198,17 @@
       },
       "top_long": "Metals",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-04-14",
+      "shock_magnitude": 1.4105,
+      "factor_scores": {
+        "global": -1.2954,
+        "country_spread": -0.3553,
+        "cyclical_defensive": 0.4304
+      },
+      "top_long": "Consumption",
+      "top_short": "IT"
     }
   ]
 }
