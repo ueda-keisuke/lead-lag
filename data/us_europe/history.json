@@ -220,6 +220,17 @@
       },
       "top_long": "Banks",
       "top_short": "Telecommunications"
+    },
+    {
+      "date": "2026-04-16",
+      "shock_magnitude": 1.0371,
+      "factor_scores": {
+        "global": -0.7763,
+        "country_spread": -0.6648,
+        "cyclical_defensive": 0.1763
+      },
+      "top_long": "Health Care",
+      "top_short": "Banks"
     }
   ]
 }
