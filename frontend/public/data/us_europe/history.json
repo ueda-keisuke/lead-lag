@@ -231,6 +231,17 @@
       },
       "top_long": "Health Care",
       "top_short": "Banks"
+    },
+    {
+      "date": "2026-04-17",
+      "shock_magnitude": 2.2281,
+      "factor_scores": {
+        "global": -1.7785,
+        "country_spread": -1.2552,
+        "cyclical_defensive": 0.475
+      },
+      "top_long": "Health Care",
+      "top_short": "Banks"
     }
   ]
 }

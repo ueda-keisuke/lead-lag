@@ -1,64 +1,64 @@
 {
   "market_pair_id": "us_australia",
-  "signal_date": "2026-04-16",
-  "generated_at": "2026-04-17T23:45:45.978532+00:00",
+  "signal_date": "2026-04-17",
+  "generated_at": "2026-04-20T23:46:00.493758+00:00",
   "leader_summary": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 0.72
+        "return_pct": 0.25
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 1.47
+        "return_pct": -2.76
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.27
+        "return_pct": 0.77
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.5
+        "return_pct": 1.87
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 1.14
+        "return_pct": 1.53
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.46
+        "return_pct": 1.26
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 0.92
+        "return_pct": 1.53
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.72
+        "return_pct": -0.41
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.79
+        "return_pct": 1.49
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -0.47
+        "return_pct": 2.36
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": 1.25
+        "return_pct": 0.23
       }
     ]
   },
@@ -67,70 +67,70 @@
       {
         "ticker": "QAU.AX",
         "name": "Gold",
-        "signal_score": 0.0768,
+        "signal_score": 0.1953,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "HLTH.AX",
         "name": "Healthcare",
-        "signal_score": 0.074,
+        "signal_score": 0.1882,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "MVA.AX",
         "name": "Australian Equities",
-        "signal_score": -0.0077,
+        "signal_score": -0.0283,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "OZR.AX",
         "name": "Resources",
-        "signal_score": -0.0078,
+        "signal_score": -0.0298,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "SLF.AX",
         "name": "Listed Property",
-        "signal_score": -0.0085,
+        "signal_score": -0.031,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "OZF.AX",
         "name": "Financials",
-        "signal_score": -0.0098,
+        "signal_score": -0.0333,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": -0.0101,
+        "signal_score": -0.0337,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "ATEC.AX",
         "name": "Technology",
-        "signal_score": -0.0143,
+        "signal_score": -0.0442,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "FUEL.AX",
         "name": "Energy",
-        "signal_score": -0.0241,
+        "signal_score": -0.0669,
         "position": "short",
         "rank": 9
       },
       {
         "ticker": "OOO.AX",
         "name": "Crude Oil",
-        "signal_score": -0.0308,
+        "signal_score": -0.0868,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0193,
+    "shock_magnitude": 2.2954,
     "factor_scores": {
-      "global": -0.7625,
-      "country_spread": -0.6513,
-      "cyclical_defensive": -0.1826
+      "global": -1.7076,
+      "country_spread": -1.4541,
+      "cyclical_defensive": -0.4885
     }
   }
 }
