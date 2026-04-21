@@ -253,6 +253,17 @@
       },
       "top_long": "Foods",
       "top_short": "Commerce & Wholesale"
+    },
+    {
+      "date": "2026-04-20",
+      "shock_magnitude": 0.4974,
+      "factor_scores": {
+        "global": 0.1107,
+        "country_spread": 0.4719,
+        "cyclical_defensive": -0.1114
+      },
+      "top_long": "Commerce & Wholesale",
+      "top_short": "Retail"
     }
   ]
 }
