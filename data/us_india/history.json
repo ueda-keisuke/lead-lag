@@ -264,6 +264,17 @@
       },
       "top_long": "IT",
       "top_short": "Consumption"
+    },
+    {
+      "date": "2026-04-22",
+      "shock_magnitude": 0.7482,
+      "factor_scores": {
+        "global": -0.5471,
+        "country_spread": -0.0661,
+        "cyclical_defensive": -0.5061
+      },
+      "top_long": "IT",
+      "top_short": "Pharma"
     }
   ]
 }
