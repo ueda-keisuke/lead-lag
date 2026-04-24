@@ -275,6 +275,17 @@
       },
       "top_long": "Energy",
       "top_short": "Telecommunications"
+    },
+    {
+      "date": "2026-04-23",
+      "shock_magnitude": 1.7185,
+      "factor_scores": {
+        "global": -1.0039,
+        "country_spread": -0.8713,
+        "cyclical_defensive": 1.0891
+      },
+      "top_long": "Telecommunications",
+      "top_short": "Banks"
     }
   ]
 }
