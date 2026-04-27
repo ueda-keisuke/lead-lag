@@ -1,136 +1,136 @@
 {
   "market_pair_id": "us_korea",
-  "signal_date": "2026-04-23",
-  "generated_at": "2026-04-24T23:45:34.968466+00:00",
+  "signal_date": "2026-04-24",
+  "generated_at": "2026-04-27T23:47:43.367127+00:00",
   "leader_summary": {
-    "date": "2026-04-23",
+    "date": "2026-04-24",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -0.04
+        "return_pct": 0.21
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 0.78
+        "return_pct": -0.19
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.79
+        "return_pct": -0.73
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": 1.77
+        "return_pct": -0.92
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": -1.42
+        "return_pct": 2.81
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 1.67
+        "return_pct": -0.3
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 1.15
+        "return_pct": -0.3
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 2.72
+        "return_pct": 0.2
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.1
+        "return_pct": -1.41
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -1.0
+        "return_pct": 0.81
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -0.42
+        "return_pct": -1.58
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "266410.KS",
-        "name": "Consumer Staples",
-        "signal_score": 0.3712,
+        "ticker": "091160.KS",
+        "name": "Semiconductor",
+        "signal_score": 0.1773,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "140710.KS",
-        "name": "Insurance",
-        "signal_score": 0.3537,
+        "ticker": "117700.KS",
+        "name": "Construction",
+        "signal_score": 0.1665,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "244580.KS",
-        "name": "Bio & Healthcare",
-        "signal_score": 0.3407,
+        "ticker": "102970.KS",
+        "name": "Securities",
+        "signal_score": 0.1649,
         "position": "long",
         "rank": 3
       },
       {
-        "ticker": "117460.KS",
-        "name": "Energy & Chemicals",
-        "signal_score": -0.1289,
+        "ticker": "117680.KS",
+        "name": "Steel",
+        "signal_score": 0.156,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "117680.KS",
-        "name": "Steel",
-        "signal_score": -0.1332,
+        "ticker": "091170.KS",
+        "name": "Banks",
+        "signal_score": 0.1551,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "102970.KS",
-        "name": "Securities",
-        "signal_score": -0.1334,
+        "ticker": "091180.KS",
+        "name": "Automobiles",
+        "signal_score": 0.1548,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "091180.KS",
-        "name": "Automobiles",
-        "signal_score": -0.1336,
+        "ticker": "117460.KS",
+        "name": "Energy & Chemicals",
+        "signal_score": 0.1487,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "091170.KS",
-        "name": "Banks",
-        "signal_score": -0.1347,
+        "ticker": "244580.KS",
+        "name": "Bio & Healthcare",
+        "signal_score": -0.3675,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "117700.KS",
-        "name": "Construction",
-        "signal_score": -0.1445,
+        "ticker": "140710.KS",
+        "name": "Insurance",
+        "signal_score": -0.3777,
         "position": "short",
         "rank": 9
       },
       {
-        "ticker": "091160.KS",
-        "name": "Semiconductor",
-        "signal_score": -0.1539,
+        "ticker": "266410.KS",
+        "name": "Consumer Staples",
+        "signal_score": -0.3976,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.7353,
+    "shock_magnitude": 1.5758,
     "factor_scores": {
-      "global": -0.8204,
-      "country_spread": -1.0027,
-      "cyclical_defensive": 1.1544
+      "global": 0.6163,
+      "country_spread": 0.7078,
+      "cyclical_defensive": -1.2658
     }
   }
 }
