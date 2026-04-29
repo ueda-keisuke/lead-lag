@@ -308,6 +308,17 @@
       },
       "top_long": "Clean Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-04-28",
+      "shock_magnitude": 1.2446,
+      "factor_scores": {
+        "global": -0.0496,
+        "country_spread": -0.0391,
+        "cyclical_defensive": 1.243
+      },
+      "top_long": "Healthcare",
+      "top_short": "New Energy"
     }
   ]
 }
