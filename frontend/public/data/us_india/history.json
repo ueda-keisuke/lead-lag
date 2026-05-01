@@ -330,6 +330,17 @@
       },
       "top_long": "IT",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-04-30",
+      "shock_magnitude": 4.5568,
+      "factor_scores": {
+        "global": -4.4082,
+        "country_spread": -0.3107,
+        "cyclical_defensive": 1.1113
+      },
+      "top_long": "Pharma",
+      "top_short": "Metals"
     }
   ]
 }

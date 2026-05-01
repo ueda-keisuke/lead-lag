@@ -341,6 +341,17 @@
       },
       "top_long": "Commerce & Wholesale",
       "top_short": "Pharmaceuticals"
+    },
+    {
+      "date": "2026-04-30",
+      "shock_magnitude": 4.5049,
+      "factor_scores": {
+        "global": -1.0013,
+        "country_spread": -4.3909,
+        "cyclical_defensive": 0.1067
+      },
+      "top_long": "Foods",
+      "top_short": "Commerce & Wholesale"
     }
   ]
 }
