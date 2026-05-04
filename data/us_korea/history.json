@@ -352,6 +352,17 @@
       },
       "top_long": "Insurance",
       "top_short": "Semiconductor"
+    },
+    {
+      "date": "2026-05-01",
+      "shock_magnitude": 0.8931,
+      "factor_scores": {
+        "global": 0.6077,
+        "country_spread": 0.6333,
+        "cyclical_defensive": -0.1652
+      },
+      "top_long": "Semiconductor",
+      "top_short": "Insurance"
     }
   ]
 }
