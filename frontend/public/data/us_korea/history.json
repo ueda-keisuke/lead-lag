@@ -374,6 +374,17 @@
       },
       "top_long": "Semiconductor",
       "top_short": "Insurance"
+    },
+    {
+      "date": "2026-05-05",
+      "shock_magnitude": 1.6088,
+      "factor_scores": {
+        "global": -0.9808,
+        "country_spread": -1.0329,
+        "cyclical_defensive": -0.7479
+      },
+      "top_long": "Semiconductor",
+      "top_short": "Consumer Staples"
     }
   ]
 }
