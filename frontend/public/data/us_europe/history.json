@@ -374,6 +374,17 @@
       },
       "top_long": "Energy",
       "top_short": "Telecommunications"
+    },
+    {
+      "date": "2026-05-06",
+      "shock_magnitude": 1.763,
+      "factor_scores": {
+        "global": -1.4645,
+        "country_spread": -0.9026,
+        "cyclical_defensive": -0.386
+      },
+      "top_long": "Energy",
+      "top_short": "Food & Beverage"
     }
   ]
 }
