@@ -396,6 +396,17 @@
       },
       "top_long": "Securities",
       "top_short": "Consumer Staples"
+    },
+    {
+      "date": "2026-05-07",
+      "shock_magnitude": 2.4439,
+      "factor_scores": {
+        "global": 1.676,
+        "country_spread": 1.7309,
+        "cyclical_defensive": 0.4093
+      },
+      "top_long": "Consumer Staples",
+      "top_short": "Securities"
     }
   ]
 }

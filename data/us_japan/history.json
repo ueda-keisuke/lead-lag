@@ -396,6 +396,17 @@
       },
       "top_long": "Foods",
       "top_short": "Energy Resources"
+    },
+    {
+      "date": "2026-05-07",
+      "shock_magnitude": 2.3188,
+      "factor_scores": {
+        "global": 0.0,
+        "country_spread": 0.9154,
+        "cyclical_defensive": 2.1305
+      },
+      "top_long": "Energy Resources",
+      "top_short": "Retail"
     }
   ]
 }
