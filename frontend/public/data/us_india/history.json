@@ -396,6 +396,17 @@
       },
       "top_long": "Pharma",
       "top_short": "Banks"
+    },
+    {
+      "date": "2026-05-08",
+      "shock_magnitude": 1.1133,
+      "factor_scores": {
+        "global": 0.1271,
+        "country_spread": -0.0229,
+        "cyclical_defensive": -1.1058
+      },
+      "top_long": "Banks",
+      "top_short": "Pharma"
     }
   ]
 }
