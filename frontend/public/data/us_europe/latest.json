@@ -1,122 +1,122 @@
 {
   "market_pair_id": "us_europe",
-  "signal_date": "2026-05-08",
-  "generated_at": "2026-05-11T23:47:54.184104+00:00",
+  "signal_date": "2026-05-11",
+  "generated_at": "2026-05-12T23:48:31.304859+00:00",
   "leader_summary": {
-    "date": "2026-05-08",
+    "date": "2026-05-11",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 0.37
+        "return_pct": 1.3
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": -0.45
+        "return_pct": 2.64
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.6
+        "return_pct": -0.12
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.46
+        "return_pct": 1.06
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 3.44
+        "return_pct": 1.34
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.24
+        "return_pct": -0.96
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 0.02
+        "return_pct": 0.36
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": -0.89
+        "return_pct": 0.94
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.85
+        "return_pct": -0.31
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": 0.27
+        "return_pct": -0.69
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -0.37
+        "return_pct": -1.16
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "EXV1.DE",
-        "name": "Banks",
-        "signal_score": 0.2427,
+        "ticker": "EXV6.DE",
+        "name": "Energy",
+        "signal_score": 0.2661,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "EXV6.DE",
-        "name": "Energy",
-        "signal_score": 0.2422,
+        "ticker": "EXV3.DE",
+        "name": "Technology",
+        "signal_score": 0.2654,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "EXV3.DE",
-        "name": "Technology",
-        "signal_score": 0.2393,
+        "ticker": "EXV1.DE",
+        "name": "Banks",
+        "signal_score": 0.2536,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": 0.2188,
+        "signal_score": 0.2307,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "EXV9.DE",
-        "name": "Food & Beverage",
-        "signal_score": -0.2052,
+        "ticker": "EXV8.DE",
+        "name": "Utilities",
+        "signal_score": -0.2883,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "EXV8.DE",
-        "name": "Utilities",
-        "signal_score": -0.2063,
+        "ticker": "EXV9.DE",
+        "name": "Food & Beverage",
+        "signal_score": -0.293,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": -0.2263,
+        "signal_score": -0.3061,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": -0.2391,
+        "signal_score": -0.3163,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0546,
+    "shock_magnitude": 1.4631,
     "factor_scores": {
-      "global": 0.0942,
-      "country_spread": 0.1204,
-      "cyclical_defensive": -1.0434
+      "global": -0.5084,
+      "country_spread": -0.4794,
+      "cyclical_defensive": -1.2855
     }
   }
 }
