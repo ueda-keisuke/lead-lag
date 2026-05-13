@@ -1,129 +1,129 @@
 {
   "market_pair_id": "us_india",
-  "signal_date": "2026-05-11",
-  "generated_at": "2026-05-12T23:48:32.369908+00:00",
+  "signal_date": "2026-05-12",
+  "generated_at": "2026-05-13T23:48:43.059877+00:00",
   "leader_summary": {
-    "date": "2026-05-11",
+    "date": "2026-05-12",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 1.3
+        "return_pct": -0.23
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 2.64
+        "return_pct": 0.7
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.12
+        "return_pct": 0.78
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": 1.06
+        "return_pct": -0.39
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 1.34
+        "return_pct": -1.51
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": -0.96
+        "return_pct": 1.28
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 0.36
+        "return_pct": 0.02
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.94
+        "return_pct": 0.11
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.31
+        "return_pct": 1.96
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -0.69
+        "return_pct": -0.9
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -1.16
+        "return_pct": 0.24
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "BANKBEES.NS",
-        "name": "Banks",
-        "signal_score": 0.13,
+        "ticker": "PHARMABEES.NS",
+        "name": "Pharma",
+        "signal_score": 0.6121,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "PSUBNKBEES.NS",
-        "name": "PSU Banks",
-        "signal_score": 0.121,
+        "ticker": "CONSUMBEES.NS",
+        "name": "Consumption",
+        "signal_score": 0.5678,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "INFRABEES.NS",
-        "name": "Infrastructure",
-        "signal_score": 0.1143,
+        "ticker": "ITBEES.NS",
+        "name": "IT",
+        "signal_score": -0.1475,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "AUTOIETF.NS",
-        "name": "Automobiles",
-        "signal_score": 0.1136,
+        "ticker": "METALIETF.NS",
+        "name": "Metals",
+        "signal_score": -0.1589,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "JUNIORBEES.NS",
-        "name": "Nifty Next 50",
-        "signal_score": 0.111,
+        "ticker": "AUTOIETF.NS",
+        "name": "Automobiles",
+        "signal_score": -0.1626,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "METALIETF.NS",
-        "name": "Metals",
-        "signal_score": 0.1105,
+        "ticker": "JUNIORBEES.NS",
+        "name": "Nifty Next 50",
+        "signal_score": -0.1641,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "ITBEES.NS",
-        "name": "IT",
-        "signal_score": 0.0953,
+        "ticker": "INFRABEES.NS",
+        "name": "Infrastructure",
+        "signal_score": -0.1685,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "CONSUMBEES.NS",
-        "name": "Consumption",
-        "signal_score": -0.4633,
+        "ticker": "PSUBNKBEES.NS",
+        "name": "PSU Banks",
+        "signal_score": -0.1694,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "PHARMABEES.NS",
-        "name": "Pharma",
-        "signal_score": -0.5006,
+        "ticker": "BANKBEES.NS",
+        "name": "Banks",
+        "signal_score": -0.1767,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 1.5364,
+    "shock_magnitude": 1.9554,
     "factor_scores": {
-      "global": -0.6432,
-      "country_spread": -0.2034,
-      "cyclical_defensive": -1.3803
+      "global": -0.8138,
+      "country_spread": -0.2879,
+      "cyclical_defensive": 1.7545
     }
   }
 }
