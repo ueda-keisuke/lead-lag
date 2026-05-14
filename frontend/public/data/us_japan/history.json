@@ -440,6 +440,17 @@
       },
       "top_long": "IT & Services",
       "top_short": "Machinery"
+    },
+    {
+      "date": "2026-05-13",
+      "shock_magnitude": 0.356,
+      "factor_scores": {
+        "global": -0.0,
+        "country_spread": 0.1067,
+        "cyclical_defensive": 0.3396
+      },
+      "top_long": "Machinery",
+      "top_short": "Retail"
     }
   ]
 }

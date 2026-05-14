@@ -1,129 +1,129 @@
 {
   "market_pair_id": "us_hongkong",
-  "signal_date": "2026-05-12",
-  "generated_at": "2026-05-13T23:48:45.512270+00:00",
+  "signal_date": "2026-05-13",
+  "generated_at": "2026-05-14T23:48:00.895472+00:00",
   "leader_summary": {
-    "date": "2026-05-12",
+    "date": "2026-05-13",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -0.23
+        "return_pct": -0.15
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 0.7
+        "return_pct": 0.1
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": 0.78
+        "return_pct": -1.14
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.39
+        "return_pct": -0.42
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": -1.51
+        "return_pct": 0.94
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 1.28
+        "return_pct": 0.33
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 0.02
+        "return_pct": -0.83
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.11
+        "return_pct": -1.15
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": 1.96
+        "return_pct": 0.59
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -0.9
+        "return_pct": 0.36
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": 0.24
+        "return_pct": 0.78
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "3174.HK",
-        "name": "Healthcare",
-        "signal_score": 0.768,
+        "ticker": "3173.HK",
+        "name": "Consumer",
+        "signal_score": 0.0216,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "2800.HK",
-        "name": "Hang Seng Index",
-        "signal_score": -0.0707,
+        "ticker": "3110.HK",
+        "name": "Clean Energy",
+        "signal_score": 0.0213,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "3033.HK",
-        "name": "CSOP Hang Seng Tech",
-        "signal_score": -0.0762,
+        "ticker": "3192.HK",
+        "name": "Semiconductor",
+        "signal_score": 0.0187,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "2801.HK",
-        "name": "Internet / Tech",
-        "signal_score": -0.0767,
+        "ticker": "3191.HK",
+        "name": "New Energy",
+        "signal_score": 0.0179,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "3067.HK",
-        "name": "Hang Seng Tech",
-        "signal_score": -0.078,
+        "ticker": "2801.HK",
+        "name": "Internet / Tech",
+        "signal_score": 0.0178,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "3192.HK",
-        "name": "Semiconductor",
-        "signal_score": -0.0814,
+        "ticker": "3067.HK",
+        "name": "Hang Seng Tech",
+        "signal_score": 0.0176,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "3191.HK",
-        "name": "New Energy",
-        "signal_score": -0.0862,
+        "ticker": "3033.HK",
+        "name": "CSOP Hang Seng Tech",
+        "signal_score": 0.0173,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "3110.HK",
-        "name": "Clean Energy",
-        "signal_score": -0.0958,
+        "ticker": "2800.HK",
+        "name": "Hang Seng Index",
+        "signal_score": 0.0166,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "3173.HK",
-        "name": "Consumer",
-        "signal_score": -0.0991,
+        "ticker": "3174.HK",
+        "name": "Healthcare",
+        "signal_score": -0.1316,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 2.0542,
+    "shock_magnitude": 0.4543,
     "factor_scores": {
-      "global": -0.8297,
-      "country_spread": -0.264,
-      "cyclical_defensive": 1.8606
+      "global": 0.3021,
+      "country_spread": 0.0886,
+      "cyclical_defensive": -0.3274
     }
   }
 }
