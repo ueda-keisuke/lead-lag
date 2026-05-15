@@ -1,136 +1,136 @@
 {
   "market_pair_id": "us_australia",
-  "signal_date": "2026-05-13",
-  "generated_at": "2026-05-14T23:48:04.117577+00:00",
+  "signal_date": "2026-05-14",
+  "generated_at": "2026-05-15T23:47:58.443392+00:00",
   "leader_summary": {
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -0.15
+        "return_pct": -0.75
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 0.1
+        "return_pct": 0.76
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -1.14
+        "return_pct": 0.59
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -0.42
+        "return_pct": 0.51
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 0.94
+        "return_pct": 1.5
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.33
+        "return_pct": 0.31
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": -0.83
+        "return_pct": -0.68
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": -1.15
+        "return_pct": 0.51
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": 0.59
+        "return_pct": -0.05
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": 0.36
+        "return_pct": -0.04
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": 0.78
+        "return_pct": 0.3
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "OOO.AX",
-        "name": "Crude Oil",
-        "signal_score": 0.0467,
+        "ticker": "QAU.AX",
+        "name": "Gold",
+        "signal_score": 0.0018,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "FUEL.AX",
-        "name": "Energy",
-        "signal_score": 0.0313,
+        "ticker": "MVA.AX",
+        "name": "Australian Equities",
+        "signal_score": 0.0015,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "ATEC.AX",
-        "name": "Technology",
-        "signal_score": 0.0219,
+        "ticker": "HLTH.AX",
+        "name": "Healthcare",
+        "signal_score": 0.0015,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "SLF.AX",
         "name": "Listed Property",
-        "signal_score": 0.0196,
+        "signal_score": 0.001,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": 0.0183,
+        "signal_score": -0.0005,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "OZR.AX",
-        "name": "Resources",
-        "signal_score": 0.018,
+        "ticker": "OZF.AX",
+        "name": "Financials",
+        "signal_score": -0.0006,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "OZF.AX",
-        "name": "Financials",
-        "signal_score": 0.0177,
+        "ticker": "ATEC.AX",
+        "name": "Technology",
+        "signal_score": -0.0009,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "MVA.AX",
-        "name": "Australian Equities",
-        "signal_score": 0.0166,
+        "ticker": "OZR.AX",
+        "name": "Resources",
+        "signal_score": -0.0014,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "QAU.AX",
-        "name": "Gold",
-        "signal_score": -0.1079,
+        "ticker": "OOO.AX",
+        "name": "Crude Oil",
+        "signal_score": -0.003,
         "position": "short",
         "rank": 9
       },
       {
-        "ticker": "HLTH.AX",
-        "name": "Healthcare",
-        "signal_score": -0.1105,
+        "ticker": "FUEL.AX",
+        "name": "Energy",
+        "signal_score": -0.0032,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 0.4323,
+    "shock_magnitude": 0.5534,
     "factor_scores": {
-      "global": 0.244,
-      "country_spread": 0.2037,
-      "cyclical_defensive": -0.293
+      "global": -0.4341,
+      "country_spread": -0.3431,
+      "cyclical_defensive": 0.0021
     }
   }
 }
