@@ -462,6 +462,17 @@
       },
       "top_long": "Securities",
       "top_short": "Bio & Healthcare"
+    },
+    {
+      "date": "2026-05-15",
+      "shock_magnitude": 3.6172,
+      "factor_scores": {
+        "global": 2.492,
+        "country_spread": 2.6197,
+        "cyclical_defensive": -0.1047
+      },
+      "top_long": "Banks",
+      "top_short": "Insurance"
     }
   ]
 }
