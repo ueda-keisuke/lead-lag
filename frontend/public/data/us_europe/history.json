@@ -462,6 +462,17 @@
       },
       "top_long": "Industrial Goods",
       "top_short": "Health Care"
+    },
+    {
+      "date": "2026-05-18",
+      "shock_magnitude": 2.1647,
+      "factor_scores": {
+        "global": -1.2934,
+        "country_spread": -1.1289,
+        "cyclical_defensive": 1.3185
+      },
+      "top_long": "Health Care",
+      "top_short": "Technology"
     }
   ]
 }
