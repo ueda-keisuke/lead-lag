@@ -484,6 +484,17 @@
       },
       "top_long": "Retail",
       "top_short": "Energy Resources"
+    },
+    {
+      "date": "2026-05-19",
+      "shock_magnitude": 0.8569,
+      "factor_scores": {
+        "global": -0.0015,
+        "country_spread": 0.4129,
+        "cyclical_defensive": 0.7509
+      },
+      "top_long": "Commerce & Wholesale",
+      "top_short": "Retail"
     }
   ]
 }
