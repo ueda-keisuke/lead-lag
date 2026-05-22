@@ -506,6 +506,17 @@
       },
       "top_long": "Semiconductor",
       "top_short": "Bio & Healthcare"
+    },
+    {
+      "date": "2026-05-21",
+      "shock_magnitude": 0.513,
+      "factor_scores": {
+        "global": -0.342,
+        "country_spread": -0.3712,
+        "cyclical_defensive": 0.0919
+      },
+      "top_long": "Insurance",
+      "top_short": "Semiconductor"
     }
   ]
 }
