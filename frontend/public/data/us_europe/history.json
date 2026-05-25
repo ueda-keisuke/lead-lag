@@ -506,6 +506,17 @@
       },
       "top_long": "Health Care",
       "top_short": "Banks"
+    },
+    {
+      "date": "2026-05-22",
+      "shock_magnitude": 1.3087,
+      "factor_scores": {
+        "global": -1.021,
+        "country_spread": -0.8168,
+        "cyclical_defensive": -0.0542
+      },
+      "top_long": "Technology",
+      "top_short": "Food & Beverage"
     }
   ]
 }
