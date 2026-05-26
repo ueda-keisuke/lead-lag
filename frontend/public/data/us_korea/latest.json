@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_korea",
   "signal_date": "2026-05-22",
-  "generated_at": "2026-05-25T23:51:01.836491+00:00",
+  "generated_at": "2026-05-26T23:51:29.317041+00:00",
   "leader_summary": {
     "date": "2026-05-22",
     "sector_returns": [
@@ -142,7 +142,7 @@
   "propagation_summary": {
     "shock_magnitude": 1.3191,
     "factor_scores": {
-      "global": -0.895,
+      "global": -0.8949,
       "country_spread": -0.9688,
       "cyclical_defensive": -0.0228
     }

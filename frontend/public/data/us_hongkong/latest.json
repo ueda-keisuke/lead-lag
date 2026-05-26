@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-05-22",
-  "generated_at": "2026-05-25T23:51:05.109546+00:00",
+  "generated_at": "2026-05-26T23:51:32.632140+00:00",
   "leader_summary": {
     "date": "2026-05-22",
     "sector_returns": [
@@ -135,9 +135,9 @@
   "propagation_summary": {
     "shock_magnitude": 1.3118,
     "factor_scores": {
-      "global": -1.2256,
-      "country_spread": -0.4637,
-      "cyclical_defensive": -0.0614
+      "global": -1.226,
+      "country_spread": -0.4626,
+      "cyclical_defensive": -0.0615
     }
   }
 }
