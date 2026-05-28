@@ -528,6 +528,17 @@
       },
       "top_long": "Consumer",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-05-27",
+      "shock_magnitude": 0.3767,
+      "factor_scores": {
+        "global": -0.2941,
+        "country_spread": -0.1221,
+        "cyclical_defensive": 0.2012
+      },
+      "top_long": "Healthcare",
+      "top_short": "Clean Energy"
     }
   ]
 }
