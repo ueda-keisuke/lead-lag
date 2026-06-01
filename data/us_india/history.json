@@ -561,6 +561,17 @@
       },
       "top_long": "Banks",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-05-29",
+      "shock_magnitude": 1.8935,
+      "factor_scores": {
+        "global": 1.6989,
+        "country_spread": 0.1319,
+        "cyclical_defensive": -0.8258
+      },
+      "top_long": "PSU Banks",
+      "top_short": "Pharma"
     }
   ]
 }
