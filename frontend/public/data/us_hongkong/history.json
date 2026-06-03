@@ -561,6 +561,17 @@
       },
       "top_long": "Clean Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-06-02",
+      "shock_magnitude": 1.0528,
+      "factor_scores": {
+        "global": -0.5025,
+        "country_spread": -0.11,
+        "cyclical_defensive": -0.9186
+      },
+      "top_long": "CSOP Hang Seng Tech",
+      "top_short": "Healthcare"
     }
   ]
 }

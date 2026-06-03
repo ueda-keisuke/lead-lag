@@ -572,6 +572,17 @@
       },
       "top_long": "Automobiles",
       "top_short": "Bio & Healthcare"
+    },
+    {
+      "date": "2026-06-02",
+      "shock_magnitude": 0.9087,
+      "factor_scores": {
+        "global": -0.3957,
+        "country_spread": -0.2776,
+        "cyclical_defensive": -0.7695
+      },
+      "top_long": "Semiconductor",
+      "top_short": "Bio & Healthcare"
     }
   ]
 }
