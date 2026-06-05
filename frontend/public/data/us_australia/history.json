@@ -594,6 +594,17 @@
       },
       "top_long": "Energy",
       "top_short": "Gold"
+    },
+    {
+      "date": "2026-06-04",
+      "shock_magnitude": 3.7369,
+      "factor_scores": {
+        "global": -2.5303,
+        "country_spread": -1.5802,
+        "cyclical_defensive": 2.2506
+      },
+      "top_long": "Healthcare",
+      "top_short": "Technology"
     }
   ]
 }
