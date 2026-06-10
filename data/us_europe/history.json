@@ -627,6 +627,17 @@
       },
       "top_long": "Technology",
       "top_short": "Health Care"
+    },
+    {
+      "date": "2026-06-09",
+      "shock_magnitude": 2.6761,
+      "factor_scores": {
+        "global": -1.7518,
+        "country_spread": -1.3578,
+        "cyclical_defensive": 1.4998
+      },
+      "top_long": "Health Care",
+      "top_short": "Technology"
     }
   ]
 }
