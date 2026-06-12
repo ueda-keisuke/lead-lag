@@ -638,6 +638,17 @@
       },
       "top_long": "Pharma",
       "top_short": "IT"
+    },
+    {
+      "date": "2026-06-11",
+      "shock_magnitude": 3.4358,
+      "factor_scores": {
+        "global": -2.8788,
+        "country_spread": -0.7379,
+        "cyclical_defensive": -1.7241
+      },
+      "top_long": "Banks",
+      "top_short": "Pharma"
     }
   ]
 }
