@@ -638,6 +638,17 @@
       },
       "top_long": "Hang Seng Tech",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-06-12",
+      "shock_magnitude": 1.771,
+      "factor_scores": {
+        "global": -1.7698,
+        "country_spread": 0.0607,
+        "cyclical_defensive": 0.0239
+      },
+      "top_long": "New Energy",
+      "top_short": "Clean Energy"
     }
   ]
 }

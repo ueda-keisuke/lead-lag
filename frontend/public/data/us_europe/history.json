@@ -649,6 +649,17 @@
       },
       "top_long": "Technology",
       "top_short": "Health Care"
+    },
+    {
+      "date": "2026-06-12",
+      "shock_magnitude": 1.7376,
+      "factor_scores": {
+        "global": -1.3625,
+        "country_spread": -1.0783,
+        "cyclical_defensive": -0.006
+      },
+      "top_long": "Telecommunications",
+      "top_short": "Industrial Goods"
     }
   ]
 }

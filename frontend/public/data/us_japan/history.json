@@ -660,6 +660,17 @@
       },
       "top_long": "Transport & Logistics",
       "top_short": "Energy Resources"
+    },
+    {
+      "date": "2026-06-12",
+      "shock_magnitude": 1.7037,
+      "factor_scores": {
+        "global": 0.0001,
+        "country_spread": -0.7115,
+        "cyclical_defensive": -1.548
+      },
+      "top_long": "Transport & Logistics",
+      "top_short": "Energy Resources"
     }
   ]
 }
