@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-06-15",
-  "generated_at": "2026-06-16T00:05:14.485876+00:00",
+  "generated_at": "2026-06-16T23:59:16.368281+00:00",
   "leader_summary": {
     "date": "2026-06-15",
     "sector_returns": [
@@ -67,49 +67,49 @@
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": 0.232,
+        "signal_score": 0.2349,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": 0.23,
+        "signal_score": 0.2332,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV1.DE",
         "name": "Banks",
-        "signal_score": 0.2143,
+        "signal_score": 0.218,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": 0.2116,
+        "signal_score": 0.2162,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": -0.1399,
+        "signal_score": -0.1379,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": -0.1422,
+        "signal_score": -0.1404,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": -0.1511,
+        "signal_score": -0.1509,
         "position": "short",
         "rank": 7
       },
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 0.9265,
+    "shock_magnitude": 0.9305,
     "factor_scores": {
-      "global": -0.3229,
-      "country_spread": -0.1031,
-      "cyclical_defensive": -0.8622
+      "global": -0.3244,
+      "country_spread": -0.0928,
+      "cyclical_defensive": -0.8672
     }
   }
 }

@@ -652,14 +652,14 @@
     },
     {
       "date": "2026-06-15",
-      "shock_magnitude": 0.4478,
+      "shock_magnitude": 1.0393,
       "factor_scores": {
-        "global": -0.1164,
-        "country_spread": -0.3862,
-        "cyclical_defensive": -0.1945
+        "global": -0.4009,
+        "country_spread": -0.0689,
+        "cyclical_defensive": -0.9564
       },
-      "top_long": "CSOP Hang Seng Tech",
-      "top_short": "Semiconductor"
+      "top_long": "Hang Seng Tech",
+      "top_short": "Healthcare"
     }
   ]
 }

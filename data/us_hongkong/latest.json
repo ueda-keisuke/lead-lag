@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-06-15",
-  "generated_at": "2026-06-16T00:05:17.777776+00:00",
+  "generated_at": "2026-06-16T23:59:19.546854+00:00",
   "leader_summary": {
     "date": "2026-06-15",
     "sector_returns": [
@@ -65,65 +65,65 @@
   "signal": {
     "sectors": [
       {
-        "ticker": "3033.HK",
-        "name": "CSOP Hang Seng Tech",
-        "signal_score": 0.0437,
+        "ticker": "3067.HK",
+        "name": "Hang Seng Tech",
+        "signal_score": 0.0642,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "3067.HK",
-        "name": "Hang Seng Tech",
-        "signal_score": 0.0436,
+        "ticker": "3033.HK",
+        "name": "CSOP Hang Seng Tech",
+        "signal_score": 0.0632,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "3191.HK",
-        "name": "New Energy",
-        "signal_score": 0.043,
+        "ticker": "3173.HK",
+        "name": "Consumer",
+        "signal_score": 0.0595,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "2801.HK",
-        "name": "Internet / Tech",
-        "signal_score": 0.0426,
+        "ticker": "2800.HK",
+        "name": "Hang Seng Index",
+        "signal_score": 0.0593,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "3173.HK",
-        "name": "Consumer",
-        "signal_score": 0.0424,
+        "ticker": "3191.HK",
+        "name": "New Energy",
+        "signal_score": 0.0587,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "2800.HK",
-        "name": "Hang Seng Index",
-        "signal_score": 0.0421,
+        "ticker": "3110.HK",
+        "name": "Clean Energy",
+        "signal_score": 0.055,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "3110.HK",
-        "name": "Clean Energy",
-        "signal_score": 0.0402,
+        "ticker": "2801.HK",
+        "name": "Internet / Tech",
+        "signal_score": 0.0548,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "3174.HK",
-        "name": "Healthcare",
-        "signal_score": 0.0346,
+        "ticker": "3192.HK",
+        "name": "Semiconductor",
+        "signal_score": 0.0399,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "3192.HK",
-        "name": "Semiconductor",
-        "signal_score": -0.143,
+        "ticker": "3174.HK",
+        "name": "Healthcare",
+        "signal_score": -0.3722,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.4478,
+    "shock_magnitude": 1.0393,
     "factor_scores": {
-      "global": -0.1164,
-      "country_spread": -0.3862,
-      "cyclical_defensive": -0.1945
+      "global": -0.4009,
+      "country_spread": -0.0689,
+      "cyclical_defensive": -0.9564
     }
   }
 }
