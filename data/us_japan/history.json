@@ -682,6 +682,17 @@
       },
       "top_long": "Retail",
       "top_short": "Commerce & Wholesale"
+    },
+    {
+      "date": "2026-06-16",
+      "shock_magnitude": 0.3998,
+      "factor_scores": {
+        "global": -0.0001,
+        "country_spread": -0.0723,
+        "cyclical_defensive": -0.3932
+      },
+      "top_long": "Commerce & Wholesale",
+      "top_short": "Automobiles & Transport"
     }
   ]
 }
