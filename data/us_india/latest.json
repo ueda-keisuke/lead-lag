@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_india",
   "signal_date": "2026-06-18",
-  "generated_at": "2026-06-19T00:03:32.710483+00:00",
+  "generated_at": "2026-06-19T23:51:53.765783+00:00",
   "leader_summary": {
     "date": "2026-06-18",
     "sector_returns": [
@@ -67,35 +67,35 @@
       {
         "ticker": "METALIETF.NS",
         "name": "Metals",
-        "signal_score": 0.0966,
+        "signal_score": 0.0965,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "PSUBNKBEES.NS",
         "name": "PSU Banks",
-        "signal_score": 0.092,
+        "signal_score": 0.0923,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "INFRABEES.NS",
         "name": "Infrastructure",
-        "signal_score": 0.0916,
+        "signal_score": 0.0918,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "JUNIORBEES.NS",
-        "name": "Nifty Next 50",
-        "signal_score": 0.091,
+        "ticker": "BANKBEES.NS",
+        "name": "Banks",
+        "signal_score": 0.0913,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "BANKBEES.NS",
-        "name": "Banks",
-        "signal_score": 0.0909,
+        "ticker": "JUNIORBEES.NS",
+        "name": "Nifty Next 50",
+        "signal_score": 0.0913,
         "position": "neutral",
         "rank": 5
       },
@@ -109,7 +109,7 @@
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": 0.0876,
+        "signal_score": 0.0873,
         "position": "neutral",
         "rank": 7
       },
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.9784,
+    "shock_magnitude": 0.9787,
     "factor_scores": {
-      "global": 0.1969,
-      "country_spread": 0.1047,
-      "cyclical_defensive": -0.9526
+      "global": 0.1968,
+      "country_spread": 0.105,
+      "cyclical_defensive": -0.953
     }
   }
 }

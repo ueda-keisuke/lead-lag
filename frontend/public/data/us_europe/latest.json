@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-06-18",
-  "generated_at": "2026-06-19T00:03:29.687134+00:00",
+  "generated_at": "2026-06-19T23:51:52.721708+00:00",
   "leader_summary": {
     "date": "2026-06-18",
     "sector_returns": [
@@ -67,56 +67,56 @@
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": 0.2183,
+        "signal_score": 0.2174,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": 0.2133,
+        "signal_score": 0.2116,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV1.DE",
         "name": "Banks",
-        "signal_score": 0.1992,
+        "signal_score": 0.198,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": 0.1953,
+        "signal_score": 0.1935,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": -0.1641,
+        "signal_score": -0.1651,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": -0.1668,
+        "signal_score": -0.1677,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": -0.179,
+        "signal_score": -0.1803,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": -0.1987,
+        "signal_score": -0.2007,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 0.9164,
+    "shock_magnitude": 0.9159,
     "factor_scores": {
-      "global": 0.1625,
-      "country_spread": 0.2049,
-      "cyclical_defensive": -0.8783
+      "global": 0.1634,
+      "country_spread": 0.199,
+      "cyclical_defensive": -0.879
     }
   }
 }
