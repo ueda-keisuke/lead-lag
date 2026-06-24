@@ -693,6 +693,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Hang Seng Tech"
+    },
+    {
+      "date": "2026-06-23",
+      "shock_magnitude": 3.2776,
+      "factor_scores": {
+        "global": -0.0913,
+        "country_spread": -0.2325,
+        "cyclical_defensive": 3.268
+      },
+      "top_long": "Healthcare",
+      "top_short": "Hang Seng Tech"
     }
   ]
 }
