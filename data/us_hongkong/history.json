@@ -726,6 +726,17 @@
       },
       "top_long": "Consumer",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-06-26",
+      "shock_magnitude": 2.7315,
+      "factor_scores": {
+        "global": -0.9085,
+        "country_spread": -0.8076,
+        "cyclical_defensive": 2.4461
+      },
+      "top_long": "Healthcare",
+      "top_short": "Consumer"
     }
   ]
 }
