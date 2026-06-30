@@ -770,6 +770,17 @@
       },
       "top_long": "Transport & Logistics",
       "top_short": "Electronics & Precision"
+    },
+    {
+      "date": "2026-06-29",
+      "shock_magnitude": 0.6346,
+      "factor_scores": {
+        "global": -0.2448,
+        "country_spread": -0.4542,
+        "cyclical_defensive": -0.3694
+      },
+      "top_long": "Iron & Steel / Non-ferrous",
+      "top_short": "Pharmaceuticals"
     }
   ]
 }
