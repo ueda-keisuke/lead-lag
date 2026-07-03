@@ -781,6 +781,17 @@
       },
       "top_long": "Semiconductor",
       "top_short": "Bio & Healthcare"
+    },
+    {
+      "date": "2026-07-02",
+      "shock_magnitude": 3.4004,
+      "factor_scores": {
+        "global": -2.1111,
+        "country_spread": -1.73,
+        "cyclical_defensive": 2.028
+      },
+      "top_long": "Consumer Staples",
+      "top_short": "Semiconductor"
     }
   ]
 }
