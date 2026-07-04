@@ -784,11 +784,11 @@
     },
     {
       "date": "2026-07-02",
-      "shock_magnitude": 3.6158,
+      "shock_magnitude": 3.6091,
       "factor_scores": {
-        "global": -2.3385,
-        "country_spread": -2.1185,
-        "cyclical_defensive": 1.7655
+        "global": -2.3447,
+        "country_spread": -2.1805,
+        "cyclical_defensive": 1.6653
       },
       "top_long": "Health Care",
       "top_short": "Technology"

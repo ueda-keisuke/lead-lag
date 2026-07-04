@@ -762,11 +762,11 @@
     },
     {
       "date": "2026-07-02",
-      "shock_magnitude": 3.5631,
+      "shock_magnitude": 3.5629,
       "factor_scores": {
-        "global": -2.4527,
-        "country_spread": -1.2904,
-        "cyclical_defensive": 2.2395
+        "global": -1.9411,
+        "country_spread": -1.9891,
+        "cyclical_defensive": 2.2293
       },
       "top_long": "Healthcare",
       "top_short": "Consumer"
