@@ -814,6 +814,17 @@
       },
       "top_long": "IT & Services",
       "top_short": "Energy Resources"
+    },
+    {
+      "date": "2026-07-06",
+      "shock_magnitude": 0.864,
+      "factor_scores": {
+        "global": 0.0407,
+        "country_spread": 0.5013,
+        "cyclical_defensive": -0.7026
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Transport & Logistics"
     }
   ]
 }

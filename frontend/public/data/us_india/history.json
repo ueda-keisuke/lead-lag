@@ -803,6 +803,17 @@
       },
       "top_long": "Consumption",
       "top_short": "Metals"
+    },
+    {
+      "date": "2026-07-06",
+      "shock_magnitude": 1.205,
+      "factor_scores": {
+        "global": 0.2601,
+        "country_spread": 0.1945,
+        "cyclical_defensive": -1.1604
+      },
+      "top_long": "Metals",
+      "top_short": "Pharma"
     }
   ]
 }
