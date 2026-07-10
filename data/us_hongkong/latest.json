@@ -1,129 +1,129 @@
 {
   "market_pair_id": "us_hongkong",
-  "signal_date": "2026-07-08",
-  "generated_at": "2026-07-09T01:08:42.745486+00:00",
+  "signal_date": "2026-07-09",
+  "generated_at": "2026-07-10T01:07:47.249208+00:00",
   "leader_summary": {
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -2.62
+        "return_pct": 0.2
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 1.76
+        "return_pct": -1.4
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -1.93
+        "return_pct": 1.04
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -1.07
+        "return_pct": 0.38
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 1.24
+        "return_pct": 2.18
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": -0.55
+        "return_pct": -1.41
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": -1.65
+        "return_pct": 0.18
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": -0.74
+        "return_pct": -0.51
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -1.3
+        "return_pct": -0.08
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -1.78
+        "return_pct": 1.34
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -1.41
+        "return_pct": 0.96
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "3067.HK",
-        "name": "Hang Seng Tech",
-        "signal_score": 0.0465,
+        "ticker": "3173.HK",
+        "name": "Consumer",
+        "signal_score": 0.0352,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "3033.HK",
-        "name": "CSOP Hang Seng Tech",
-        "signal_score": 0.0465,
+        "ticker": "3191.HK",
+        "name": "New Energy",
+        "signal_score": 0.0352,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "2801.HK",
-        "name": "Internet / Tech",
-        "signal_score": 0.0438,
+        "ticker": "3067.HK",
+        "name": "Hang Seng Tech",
+        "signal_score": 0.0308,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "3173.HK",
-        "name": "Consumer",
-        "signal_score": 0.0426,
+        "ticker": "3033.HK",
+        "name": "CSOP Hang Seng Tech",
+        "signal_score": 0.0303,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "2800.HK",
-        "name": "Hang Seng Index",
-        "signal_score": 0.0352,
+        "ticker": "2801.HK",
+        "name": "Internet / Tech",
+        "signal_score": 0.0283,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "3191.HK",
-        "name": "New Energy",
-        "signal_score": 0.0349,
+        "ticker": "2800.HK",
+        "name": "Hang Seng Index",
+        "signal_score": 0.0267,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "3110.HK",
-        "name": "Clean Energy",
-        "signal_score": 0.0261,
+        "ticker": "3192.HK",
+        "name": "Semiconductor",
+        "signal_score": 0.0245,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "3192.HK",
-        "name": "Semiconductor",
-        "signal_score": 0.016,
+        "ticker": "3110.HK",
+        "name": "Clean Energy",
+        "signal_score": 0.024,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": -0.4283,
+        "signal_score": -0.197,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 3.7301,
+    "shock_magnitude": 0.7053,
     "factor_scores": {
-      "global": 2.48,
-      "country_spread": 2.6149,
-      "cyclical_defensive": -0.962
+      "global": -0.3659,
+      "country_spread": -0.2909,
+      "cyclical_defensive": -0.5281
     }
   }
 }
