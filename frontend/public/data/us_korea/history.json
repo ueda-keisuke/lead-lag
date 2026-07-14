@@ -858,6 +858,17 @@
       },
       "top_long": "Consumer Staples",
       "top_short": "Automobiles"
+    },
+    {
+      "date": "2026-07-13",
+      "shock_magnitude": 1.0783,
+      "factor_scores": {
+        "global": -0.1848,
+        "country_spread": -0.2668,
+        "cyclical_defensive": 1.0283
+      },
+      "top_long": "Consumer Staples",
+      "top_short": "Semiconductor"
     }
   ]
 }
