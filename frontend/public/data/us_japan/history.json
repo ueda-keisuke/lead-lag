@@ -935,6 +935,17 @@
       },
       "top_long": "Finance (ex Banks)",
       "top_short": "Transport & Logistics"
+    },
+    {
+      "date": "2026-07-21",
+      "shock_magnitude": 0.803,
+      "factor_scores": {
+        "global": -0.1716,
+        "country_spread": -0.0385,
+        "cyclical_defensive": -0.7835
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Transport & Logistics"
     }
   ]
 }
