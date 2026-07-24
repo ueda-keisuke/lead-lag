@@ -913,6 +913,17 @@
       },
       "top_long": "New Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-07-23",
+      "shock_magnitude": 2.4976,
+      "factor_scores": {
+        "global": 1.2785,
+        "country_spread": 2.1352,
+        "cyclical_defensive": 0.2101
+      },
+      "top_long": "Healthcare",
+      "top_short": "New Energy"
     }
   ]
 }
