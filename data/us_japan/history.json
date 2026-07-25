@@ -968,6 +968,17 @@
       },
       "top_long": "IT & Services",
       "top_short": "Commerce & Wholesale"
+    },
+    {
+      "date": "2026-07-24",
+      "shock_magnitude": 2.5015,
+      "factor_scores": {
+        "global": -0.8183,
+        "country_spread": -2.3637,
+        "cyclical_defensive": 0.026
+      },
+      "top_long": "Transport & Logistics",
+      "top_short": "Electronics & Precision"
     }
   ]
 }

@@ -924,6 +924,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "New Energy"
+    },
+    {
+      "date": "2026-07-24",
+      "shock_magnitude": 2.482,
+      "factor_scores": {
+        "global": -1.082,
+        "country_spread": -2.0871,
+        "cyclical_defensive": 0.7959
+      },
+      "top_long": "Healthcare",
+      "top_short": "Hang Seng Tech"
     }
   ]
 }
