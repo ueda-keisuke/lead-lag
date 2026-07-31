@@ -990,6 +990,17 @@
       },
       "top_long": "Utilities",
       "top_short": "Industrial Goods"
+    },
+    {
+      "date": "2026-07-30",
+      "shock_magnitude": 3.0875,
+      "factor_scores": {
+        "global": 0.9596,
+        "country_spread": -2.9096,
+        "cyclical_defensive": 0.3823
+      },
+      "top_long": "Technology",
+      "top_short": "Health Care"
     }
   ]
 }
