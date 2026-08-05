@@ -1045,6 +1045,17 @@
       },
       "top_long": "Machinery",
       "top_short": "IT & Services"
+    },
+    {
+      "date": "2026-08-04",
+      "shock_magnitude": 1.9876,
+      "factor_scores": {
+        "global": -0.2198,
+        "country_spread": -1.716,
+        "cyclical_defensive": -0.9785
+      },
+      "top_long": "Iron & Steel / Non-ferrous",
+      "top_short": "Transport & Logistics"
     }
   ]
 }

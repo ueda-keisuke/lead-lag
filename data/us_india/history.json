@@ -1034,6 +1034,17 @@
       },
       "top_long": "Automobiles",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-08-04",
+      "shock_magnitude": 2.1916,
+      "factor_scores": {
+        "global": -1.3647,
+        "country_spread": -1.0001,
+        "cyclical_defensive": -1.3931
+      },
+      "top_long": "Metals",
+      "top_short": "Pharma"
     }
   ]
 }
