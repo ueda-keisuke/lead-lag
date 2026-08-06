@@ -1012,6 +1012,17 @@
       },
       "top_long": "New Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-08-05",
+      "shock_magnitude": 0.4973,
+      "factor_scores": {
+        "global": 0.0278,
+        "country_spread": 0.4948,
+        "cyclical_defensive": 0.0415
+      },
+      "top_long": "Healthcare",
+      "top_short": "Semiconductor"
     }
   ]
 }
