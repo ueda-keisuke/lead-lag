@@ -1067,6 +1067,17 @@
       },
       "top_long": "IT & Services",
       "top_short": "Machinery"
+    },
+    {
+      "date": "2026-08-06",
+      "shock_magnitude": 1.0065,
+      "factor_scores": {
+        "global": 0.0552,
+        "country_spread": 1.0025,
+        "cyclical_defensive": -0.0701
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Transport & Logistics"
     }
   ]
 }
