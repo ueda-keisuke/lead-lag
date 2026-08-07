@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_india",
   "signal_date": "2026-08-06",
-  "generated_at": "2026-08-07T01:51:10.708039+00:00",
+  "generated_at": "2026-08-07T23:57:05.860758+00:00",
   "leader_summary": {
     "date": "2026-08-06",
     "sector_returns": [
@@ -74,42 +74,42 @@
       {
         "ticker": "PSUBNKBEES.NS",
         "name": "PSU Banks",
-        "signal_score": 0.0106,
+        "signal_score": 0.0111,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "INFRABEES.NS",
         "name": "Infrastructure",
-        "signal_score": 0.0105,
+        "signal_score": 0.0107,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "JUNIORBEES.NS",
         "name": "Nifty Next 50",
-        "signal_score": 0.0098,
+        "signal_score": 0.01,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": 0.009,
+        "signal_score": 0.0091,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "AUTOIETF.NS",
         "name": "Automobiles",
-        "signal_score": 0.009,
+        "signal_score": 0.0089,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "BANKBEES.NS",
         "name": "Banks",
-        "signal_score": 0.008,
+        "signal_score": 0.0082,
         "position": "neutral",
         "rank": 7
       },
@@ -123,7 +123,7 @@
       {
         "ticker": "PHARMABEES.NS",
         "name": "Pharma",
-        "signal_score": -0.0637,
+        "signal_score": -0.0636,
         "position": "short",
         "rank": 9
       }
@@ -133,10 +133,10 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 1.0132,
+    "shock_magnitude": 1.0134,
     "factor_scores": {
       "global": 0.7637,
-      "country_spread": 0.656,
+      "country_spread": 0.6562,
       "cyclical_defensive": -0.1139
     }
   }

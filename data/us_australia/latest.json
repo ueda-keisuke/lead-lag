@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_australia",
   "signal_date": "2026-08-06",
-  "generated_at": "2026-08-07T01:51:14.084967+00:00",
+  "generated_at": "2026-08-07T23:57:08.883257+00:00",
   "leader_summary": {
     "date": "2026-08-06",
     "sector_returns": [
@@ -142,9 +142,9 @@
   "propagation_summary": {
     "shock_magnitude": 1.0215,
     "factor_scores": {
-      "global": 0.1515,
-      "country_spread": 1.009,
-      "cyclical_defensive": -0.0503
+      "global": 0.1502,
+      "country_spread": 1.0092,
+      "cyclical_defensive": -0.0504
     }
   }
 }

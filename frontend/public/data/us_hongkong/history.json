@@ -1026,11 +1026,11 @@
     },
     {
       "date": "2026-08-06",
-      "shock_magnitude": 1.0187,
+      "shock_magnitude": 1.0186,
       "factor_scores": {
-        "global": 0.0066,
-        "country_spread": 1.0076,
-        "cyclical_defensive": -0.1498
+        "global": 0.0708,
+        "country_spread": 1.005,
+        "cyclical_defensive": -0.1496
       },
       "top_long": "New Energy",
       "top_short": "Healthcare"

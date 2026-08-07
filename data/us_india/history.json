@@ -1059,10 +1059,10 @@
     },
     {
       "date": "2026-08-06",
-      "shock_magnitude": 1.0132,
+      "shock_magnitude": 1.0134,
       "factor_scores": {
         "global": 0.7637,
-        "country_spread": 0.656,
+        "country_spread": 0.6562,
         "cyclical_defensive": -0.1139
       },
       "top_long": "Metals",
