@@ -1067,6 +1067,17 @@
       },
       "top_long": "Metals",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-08-07",
+      "shock_magnitude": 0.9276,
+      "factor_scores": {
+        "global": -0.66,
+        "country_spread": -0.474,
+        "cyclical_defensive": -0.4472
+      },
+      "top_long": "Metals",
+      "top_short": "Pharma"
     }
   ]
 }
