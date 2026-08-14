@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-08-13",
-  "generated_at": "2026-08-14T00:06:35.216631+00:00",
+  "generated_at": "2026-08-14T23:45:34.627803+00:00",
   "leader_summary": {
     "date": "2026-08-13",
     "sector_returns": [
@@ -67,35 +67,35 @@
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": 0.2337,
+        "signal_score": 0.2345,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": 0.2186,
+        "signal_score": 0.2195,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": 0.2095,
+        "signal_score": 0.2104,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": 0.1934,
+        "signal_score": 0.1939,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": -0.2032,
+        "signal_score": -0.2039,
         "position": "neutral",
         "rank": 5
       },
@@ -109,14 +109,14 @@
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": -0.2312,
+        "signal_score": -0.2329,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": -0.2365,
+        "signal_score": -0.2366,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.8503,
+    "shock_magnitude": 1.8466,
     "factor_scores": {
-      "global": -1.2578,
-      "country_spread": 1.0231,
-      "cyclical_defensive": -0.8914
+      "global": -1.256,
+      "country_spread": 1.0246,
+      "cyclical_defensive": -0.8846
     }
   }
 }

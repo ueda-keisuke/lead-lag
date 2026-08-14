@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_australia",
   "signal_date": "2026-08-13",
-  "generated_at": "2026-08-14T00:06:42.713821+00:00",
+  "generated_at": "2026-08-14T23:45:38.437107+00:00",
   "leader_summary": {
     "date": "2026-08-13",
     "sector_returns": [
@@ -67,28 +67,28 @@
       {
         "ticker": "HLTH.AX",
         "name": "Healthcare",
-        "signal_score": 0.3895,
+        "signal_score": 0.3898,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "QAU.AX",
         "name": "Gold",
-        "signal_score": 0.3738,
+        "signal_score": 0.3746,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "MVA.AX",
         "name": "Australian Equities",
-        "signal_score": -0.0578,
+        "signal_score": -0.058,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": -0.0598,
+        "signal_score": -0.0599,
         "position": "neutral",
         "rank": 4
       },
@@ -102,14 +102,14 @@
       {
         "ticker": "SLF.AX",
         "name": "Listed Property",
-        "signal_score": -0.0635,
+        "signal_score": -0.0638,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "ATEC.AX",
         "name": "Technology",
-        "signal_score": -0.0709,
+        "signal_score": -0.071,
         "position": "neutral",
         "rank": 7
       },
@@ -123,14 +123,14 @@
       {
         "ticker": "FUEL.AX",
         "name": "Energy",
-        "signal_score": -0.0769,
+        "signal_score": -0.0771,
         "position": "short",
         "rank": 9
       },
       {
         "ticker": "OOO.AX",
         "name": "Crude Oil",
-        "signal_score": -0.077,
+        "signal_score": -0.0772,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.8966,
+    "shock_magnitude": 1.8935,
     "factor_scores": {
-      "global": -0.8936,
-      "country_spread": -1.3984,
-      "cyclical_defensive": 0.9181
+      "global": -0.903,
+      "country_spread": -1.3884,
+      "cyclical_defensive": 0.9177
     }
   }
 }
