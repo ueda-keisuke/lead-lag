@@ -1144,6 +1144,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Energy"
+    },
+    {
+      "date": "2026-08-19",
+      "shock_magnitude": 1.8083,
+      "factor_scores": {
+        "global": -0.8246,
+        "country_spread": -1.5042,
+        "cyclical_defensive": 0.5724
+      },
+      "top_long": "Healthcare",
+      "top_short": "Crude Oil"
     }
   ]
 }
