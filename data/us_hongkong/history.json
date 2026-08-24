@@ -1133,6 +1133,17 @@
       },
       "top_long": "New Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-08-21",
+      "shock_magnitude": 1.1602,
+      "factor_scores": {
+        "global": -0.4789,
+        "country_spread": -0.837,
+        "cyclical_defensive": -0.6452
+      },
+      "top_long": "Consumer",
+      "top_short": "Healthcare"
     }
   ]
 }

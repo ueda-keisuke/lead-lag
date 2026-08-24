@@ -1177,6 +1177,17 @@
       },
       "top_long": "Materials & Chemicals",
       "top_short": "Transport & Logistics"
+    },
+    {
+      "date": "2026-08-21",
+      "shock_magnitude": 1.0597,
+      "factor_scores": {
+        "global": -0.1059,
+        "country_spread": -0.9683,
+        "cyclical_defensive": -0.4173
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Retail"
     }
   ]
 }
