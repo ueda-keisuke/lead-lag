@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-08-27",
-  "generated_at": "2026-08-28T06:59:42.859094+00:00",
+  "generated_at": "2026-08-29T04:15:42.243343+00:00",
   "leader_summary": {
     "date": "2026-08-27",
     "sector_returns": [
@@ -67,63 +67,63 @@
       {
         "ticker": "3191.HK",
         "name": "New Energy",
-        "signal_score": 0.0702,
+        "signal_score": 0.0722,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "3173.HK",
         "name": "Consumer",
-        "signal_score": 0.0588,
+        "signal_score": 0.0604,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "2801.HK",
         "name": "Internet / Tech",
-        "signal_score": 0.0516,
+        "signal_score": 0.051,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "3067.HK",
         "name": "Hang Seng Tech",
-        "signal_score": 0.0494,
+        "signal_score": 0.0493,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "3033.HK",
         "name": "CSOP Hang Seng Tech",
-        "signal_score": 0.0481,
+        "signal_score": 0.0482,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "2800.HK",
         "name": "Hang Seng Index",
-        "signal_score": 0.0425,
+        "signal_score": 0.0422,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "3192.HK",
         "name": "Semiconductor",
-        "signal_score": 0.0366,
+        "signal_score": 0.0369,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "3110.HK",
         "name": "Clean Energy",
-        "signal_score": 0.0342,
+        "signal_score": 0.0326,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": -0.4833,
+        "signal_score": -0.4831,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 2.6183,
+    "shock_magnitude": 2.6184,
     "factor_scores": {
-      "global": 1.406,
-      "country_spread": 1.8906,
-      "cyclical_defensive": -1.1421
+      "global": 1.4049,
+      "country_spread": 1.8908,
+      "cyclical_defensive": -1.1432
     }
   }
 }
