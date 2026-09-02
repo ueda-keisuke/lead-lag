@@ -1243,6 +1243,17 @@
       },
       "top_long": "Electronics & Precision",
       "top_short": "Transport & Logistics"
+    },
+    {
+      "date": "2026-09-01",
+      "shock_magnitude": 1.4023,
+      "factor_scores": {
+        "global": 0.0431,
+        "country_spread": 1.2023,
+        "cyclical_defensive": 0.7204
+      },
+      "top_long": "Retail",
+      "top_short": "Electronics & Precision"
     }
   ]
 }
