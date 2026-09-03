@@ -1,136 +1,136 @@
 {
   "market_pair_id": "us_australia",
-  "signal_date": "2026-09-01",
-  "generated_at": "2026-09-02T01:12:25.687992+00:00",
+  "signal_date": "2026-09-02",
+  "generated_at": "2026-09-03T01:17:10.807845+00:00",
   "leader_summary": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -1.18
+        "return_pct": 0.0
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 1.27
+        "return_pct": 0.0
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.88
+        "return_pct": 0.0
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -1.37
+        "return_pct": 0.0
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": -1.53
+        "return_pct": 0.0
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.32
+        "return_pct": 0.0
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": -0.16
+        "return_pct": 0.0
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.78
+        "return_pct": 0.0
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": 0.66
+        "return_pct": 0.0
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -1.72
+        "return_pct": 0.0
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -0.52
+        "return_pct": 0.0
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "HLTH.AX",
-        "name": "Healthcare",
-        "signal_score": 0.3465,
+        "ticker": "OOO.AX",
+        "name": "Crude Oil",
+        "signal_score": 0.0017,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "QAU.AX",
-        "name": "Gold",
-        "signal_score": 0.3398,
+        "ticker": "FUEL.AX",
+        "name": "Energy",
+        "signal_score": 0.0017,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "OZR.AX",
         "name": "Resources",
-        "signal_score": -0.0542,
+        "signal_score": 0.0011,
         "position": "long",
         "rank": 3
       },
       {
         "ticker": "SLF.AX",
         "name": "Listed Property",
-        "signal_score": -0.0564,
+        "signal_score": 0.0009,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "OZF.AX",
-        "name": "Financials",
-        "signal_score": -0.0576,
+        "ticker": "ATEC.AX",
+        "name": "Technology",
+        "signal_score": 0.0006,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "QFN.AX",
         "name": "Financials (Beta)",
-        "signal_score": -0.0584,
+        "signal_score": 0.0004,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "OOO.AX",
-        "name": "Crude Oil",
-        "signal_score": -0.0587,
+        "ticker": "OZF.AX",
+        "name": "Financials",
+        "signal_score": 0.0003,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "MVA.AX",
         "name": "Australian Equities",
-        "signal_score": -0.0592,
+        "signal_score": 0.0002,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "FUEL.AX",
-        "name": "Energy",
-        "signal_score": -0.0639,
+        "ticker": "QAU.AX",
+        "name": "Gold",
+        "signal_score": -0.0045,
         "position": "short",
         "rank": 9
       },
       {
-        "ticker": "ATEC.AX",
-        "name": "Technology",
-        "signal_score": -0.0649,
+        "ticker": "HLTH.AX",
+        "name": "Healthcare",
+        "signal_score": -0.0046,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.5411,
+    "shock_magnitude": 0.1654,
     "factor_scores": {
-      "global": 0.0774,
-      "country_spread": 1.1076,
-      "cyclical_defensive": 1.0688
+      "global": 0.0569,
+      "country_spread": 0.1551,
+      "cyclical_defensive": 0.0081
     }
   }
 }

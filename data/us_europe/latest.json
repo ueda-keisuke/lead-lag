@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-09-01",
-  "generated_at": "2026-09-02T01:12:12.824427+00:00",
+  "generated_at": "2026-09-03T01:17:02.350607+00:00",
   "leader_summary": {
     "date": "2026-09-01",
     "sector_returns": [
@@ -67,56 +67,56 @@
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": 0.186,
+        "signal_score": 0.1861,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": 0.1822,
+        "signal_score": 0.182,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": 0.1763,
+        "signal_score": 0.1754,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": 0.1759,
+        "signal_score": 0.1753,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV6.DE",
         "name": "Energy",
-        "signal_score": -0.2085,
+        "signal_score": -0.2125,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "EXV1.DE",
         "name": "Banks",
-        "signal_score": -0.209,
+        "signal_score": -0.2126,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": -0.2103,
+        "signal_score": -0.2144,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": -0.213,
+        "signal_score": -0.2173,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.4871,
+    "shock_magnitude": 1.4833,
     "factor_scores": {
-      "global": 0.9329,
-      "country_spread": 0.8613,
-      "cyclical_defensive": 0.7743
+      "global": 0.9254,
+      "country_spread": 0.8722,
+      "cyclical_defensive": 0.7637
     }
   }
 }

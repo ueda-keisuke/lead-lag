@@ -1213,11 +1213,11 @@
     },
     {
       "date": "2026-09-01",
-      "shock_magnitude": 1.4871,
+      "shock_magnitude": 1.4833,
       "factor_scores": {
-        "global": 0.9329,
-        "country_spread": 0.8613,
-        "cyclical_defensive": 0.7743
+        "global": 0.9254,
+        "country_spread": 0.8722,
+        "cyclical_defensive": 0.7637
       },
       "top_long": "Health Care",
       "top_short": "Technology"

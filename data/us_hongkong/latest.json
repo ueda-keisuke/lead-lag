@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-09-01",
-  "generated_at": "2026-09-02T01:12:20.764801+00:00",
+  "generated_at": "2026-09-03T01:17:07.984118+00:00",
   "leader_summary": {
     "date": "2026-09-01",
     "sector_returns": [
@@ -67,7 +67,7 @@
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": 0.392,
+        "signal_score": 0.3926,
         "position": "long",
         "rank": 1
       },
@@ -81,42 +81,42 @@
       {
         "ticker": "2800.HK",
         "name": "Hang Seng Index",
-        "signal_score": -0.0382,
+        "signal_score": -0.0387,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "2801.HK",
         "name": "Internet / Tech",
-        "signal_score": -0.0407,
+        "signal_score": -0.0409,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "3033.HK",
         "name": "CSOP Hang Seng Tech",
-        "signal_score": -0.0427,
+        "signal_score": -0.0433,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "3067.HK",
         "name": "Hang Seng Tech",
-        "signal_score": -0.0431,
+        "signal_score": -0.0438,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "3192.HK",
         "name": "Semiconductor",
-        "signal_score": -0.0464,
+        "signal_score": -0.0468,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "3191.HK",
         "name": "New Energy",
-        "signal_score": -0.0518,
+        "signal_score": -0.0522,
         "position": "short",
         "rank": 8
       },
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 1.5866,
+    "shock_magnitude": 1.5882,
     "factor_scores": {
-      "global": 0.5104,
-      "country_spread": 1.0258,
-      "cyclical_defensive": 1.0975
+      "global": 0.4664,
+      "country_spread": 1.043,
+      "cyclical_defensive": 1.1032
     }
   }
 }
