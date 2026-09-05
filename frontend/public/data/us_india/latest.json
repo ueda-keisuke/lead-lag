@@ -1,9 +1,9 @@
 {
   "market_pair_id": "us_india",
-  "signal_date": "2026-09-03",
-  "generated_at": "2026-09-04T01:08:41.292676+00:00",
+  "signal_date": "2026-09-04",
+  "generated_at": "2026-09-05T01:12:48.889102+00:00",
   "leader_summary": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "sector_returns": [
       {
         "ticker": "XLB",
@@ -67,63 +67,63 @@
       {
         "ticker": "PHARMABEES.NS",
         "name": "Pharma",
-        "signal_score": 0.0463,
+        "signal_score": 0.0389,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "CONSUMBEES.NS",
         "name": "Consumption",
-        "signal_score": 0.0443,
+        "signal_score": 0.0373,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "AUTOIETF.NS",
         "name": "Automobiles",
-        "signal_score": -0.0086,
+        "signal_score": -0.0067,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": -0.0099,
+        "signal_score": -0.0074,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "BANKBEES.NS",
         "name": "Banks",
-        "signal_score": -0.0104,
+        "signal_score": -0.0085,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "JUNIORBEES.NS",
         "name": "Nifty Next 50",
-        "signal_score": -0.0113,
+        "signal_score": -0.0091,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "PSUBNKBEES.NS",
         "name": "PSU Banks",
-        "signal_score": -0.0115,
+        "signal_score": -0.0093,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "INFRABEES.NS",
         "name": "Infrastructure",
-        "signal_score": -0.0141,
+        "signal_score": -0.0113,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "METALIETF.NS",
         "name": "Metals",
-        "signal_score": -0.0143,
+        "signal_score": -0.012,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.1876,
+    "shock_magnitude": 0.2711,
     "factor_scores": {
-      "global": 0.1034,
-      "country_spread": 0.0876,
-      "cyclical_defensive": 0.1298
+      "global": 0.1892,
+      "country_spread": 0.1583,
+      "cyclical_defensive": 0.1124
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "market_pair_id": "us_korea",
-  "signal_date": "2026-09-03",
-  "generated_at": "2026-09-04T01:08:37.790940+00:00",
+  "signal_date": "2026-09-04",
+  "generated_at": "2026-09-05T01:12:45.378067+00:00",
   "leader_summary": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "sector_returns": [
       {
         "ticker": "XLB",
@@ -65,72 +65,72 @@
   "signal": {
     "sectors": [
       {
-        "ticker": "244580.KS",
-        "name": "Bio & Healthcare",
-        "signal_score": 0.0047,
+        "ticker": "091160.KS",
+        "name": "Semiconductor",
+        "signal_score": 0.0043,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "140710.KS",
-        "name": "Insurance",
-        "signal_score": 0.0043,
+        "ticker": "102970.KS",
+        "name": "Securities",
+        "signal_score": 0.0033,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "266410.KS",
-        "name": "Consumer Staples",
-        "signal_score": 0.0043,
+        "ticker": "117460.KS",
+        "name": "Energy & Chemicals",
+        "signal_score": 0.003,
         "position": "long",
         "rank": 3
       },
       {
-        "ticker": "091160.KS",
-        "name": "Semiconductor",
-        "signal_score": -0.0007,
+        "ticker": "117680.KS",
+        "name": "Steel",
+        "signal_score": 0.0029,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "117460.KS",
-        "name": "Energy & Chemicals",
-        "signal_score": -0.001,
+        "ticker": "091180.KS",
+        "name": "Automobiles",
+        "signal_score": 0.0029,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "102970.KS",
-        "name": "Securities",
-        "signal_score": -0.001,
+        "ticker": "117700.KS",
+        "name": "Construction",
+        "signal_score": 0.0026,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "117680.KS",
-        "name": "Steel",
-        "signal_score": -0.0011,
+        "ticker": "091170.KS",
+        "name": "Banks",
+        "signal_score": 0.0015,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "091180.KS",
-        "name": "Automobiles",
-        "signal_score": -0.0013,
+        "ticker": "244580.KS",
+        "name": "Bio & Healthcare",
+        "signal_score": -0.0061,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "117700.KS",
-        "name": "Construction",
-        "signal_score": -0.0016,
+        "ticker": "140710.KS",
+        "name": "Insurance",
+        "signal_score": -0.0063,
         "position": "short",
         "rank": 9
       },
       {
-        "ticker": "091170.KS",
-        "name": "Banks",
-        "signal_score": -0.0024,
+        "ticker": "266410.KS",
+        "name": "Consumer Staples",
+        "signal_score": -0.0069,
         "position": "short",
         "rank": 10
       }
@@ -140,11 +140,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 0.2238,
+    "shock_magnitude": 0.2066,
     "factor_scores": {
-      "global": 0.1533,
-      "country_spread": 0.1617,
-      "cyclical_defensive": 0.0214
+      "global": 0.141,
+      "country_spread": 0.1502,
+      "cyclical_defensive": -0.0144
     }
   }
 }
