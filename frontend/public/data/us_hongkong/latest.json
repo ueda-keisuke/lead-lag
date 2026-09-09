@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-09-07",
-  "generated_at": "2026-09-08T01:17:25.976243+00:00",
+  "generated_at": "2026-09-09T01:21:52.123923+00:00",
   "leader_summary": {
     "date": "2026-09-07",
     "sector_returns": [
@@ -67,35 +67,35 @@
       {
         "ticker": "3191.HK",
         "name": "New Energy",
-        "signal_score": 0.0011,
+        "signal_score": 0.0014,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "2801.HK",
         "name": "Internet / Tech",
-        "signal_score": 0.0007,
+        "signal_score": 0.0009,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "3067.HK",
         "name": "Hang Seng Tech",
-        "signal_score": 0.0006,
+        "signal_score": 0.0007,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "3173.HK",
         "name": "Consumer",
-        "signal_score": 0.0005,
+        "signal_score": 0.0007,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "3033.HK",
         "name": "CSOP Hang Seng Tech",
-        "signal_score": 0.0005,
+        "signal_score": 0.0006,
         "position": "neutral",
         "rank": 5
       },
@@ -116,14 +116,14 @@
       {
         "ticker": "3192.HK",
         "name": "Semiconductor",
-        "signal_score": -0.0005,
+        "signal_score": 0.0003,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": -0.0011,
+        "signal_score": -0.0047,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.1757,
+    "shock_magnitude": 0.176,
     "factor_scores": {
-      "global": 0.0017,
-      "country_spread": 0.1651,
-      "cyclical_defensive": 0.0601
+      "global": 0.0913,
+      "country_spread": 0.1504,
+      "cyclical_defensive": 0.0001
     }
   }
 }
