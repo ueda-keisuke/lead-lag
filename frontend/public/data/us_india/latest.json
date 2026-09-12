@@ -1,9 +1,9 @@
 {
   "market_pair_id": "us_india",
-  "signal_date": "2026-09-10",
-  "generated_at": "2026-09-11T01:18:08.653111+00:00",
+  "signal_date": "2026-09-11",
+  "generated_at": "2026-09-12T01:20:04.521420+00:00",
   "leader_summary": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "sector_returns": [
       {
         "ticker": "XLB",
@@ -67,63 +67,63 @@
       {
         "ticker": "PHARMABEES.NS",
         "name": "Pharma",
-        "signal_score": 0.0371,
+        "signal_score": 0.0315,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "CONSUMBEES.NS",
         "name": "Consumption",
-        "signal_score": 0.0348,
+        "signal_score": 0.0297,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "AUTOIETF.NS",
         "name": "Automobiles",
-        "signal_score": -0.0056,
+        "signal_score": -0.0044,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "ITBEES.NS",
         "name": "IT",
-        "signal_score": -0.0065,
+        "signal_score": -0.005,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "BANKBEES.NS",
         "name": "Banks",
-        "signal_score": -0.0074,
+        "signal_score": -0.006,
         "position": "neutral",
         "rank": 5
       },
       {
         "ticker": "JUNIORBEES.NS",
         "name": "Nifty Next 50",
-        "signal_score": -0.0079,
+        "signal_score": -0.0065,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "PSUBNKBEES.NS",
         "name": "PSU Banks",
-        "signal_score": -0.0083,
+        "signal_score": -0.0068,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "METALIETF.NS",
-        "name": "Metals",
-        "signal_score": -0.0106,
+        "ticker": "INFRABEES.NS",
+        "name": "Infrastructure",
+        "signal_score": -0.0089,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "INFRABEES.NS",
-        "name": "Infrastructure",
-        "signal_score": -0.0106,
+        "ticker": "METALIETF.NS",
+        "name": "Metals",
+        "signal_score": -0.009,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.2209,
+    "shock_magnitude": 0.1622,
     "factor_scores": {
-      "global": 0.1467,
-      "country_spread": 0.1292,
-      "cyclical_defensive": 0.103
+      "global": 0.1028,
+      "country_spread": 0.0909,
+      "cyclical_defensive": 0.0865
     }
   }
 }
