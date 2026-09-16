@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_hongkong",
   "signal_date": "2026-09-14",
-  "generated_at": "2026-09-15T01:39:46.381311+00:00",
+  "generated_at": "2026-09-16T01:31:12.037663+00:00",
   "leader_summary": {
     "date": "2026-09-14",
     "sector_returns": [
@@ -67,63 +67,63 @@
       {
         "ticker": "3174.HK",
         "name": "Healthcare",
-        "signal_score": 0.6257,
+        "signal_score": 0.6281,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "3110.HK",
         "name": "Clean Energy",
-        "signal_score": -0.0328,
+        "signal_score": -0.0329,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "2800.HK",
         "name": "Hang Seng Index",
-        "signal_score": -0.0427,
+        "signal_score": -0.0415,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "2801.HK",
-        "name": "Internet / Tech",
+        "ticker": "3033.HK",
+        "name": "CSOP Hang Seng Tech",
         "signal_score": -0.051,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "3033.HK",
-        "name": "CSOP Hang Seng Tech",
+        "ticker": "3067.HK",
+        "name": "Hang Seng Tech",
         "signal_score": -0.0513,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "3067.HK",
-        "name": "Hang Seng Tech",
-        "signal_score": -0.0516,
+        "ticker": "2801.HK",
+        "name": "Internet / Tech",
+        "signal_score": -0.0526,
         "position": "neutral",
         "rank": 6
       },
       {
         "ticker": "3192.HK",
         "name": "Semiconductor",
-        "signal_score": -0.0541,
+        "signal_score": -0.0538,
         "position": "neutral",
         "rank": 7
       },
       {
         "ticker": "3173.HK",
         "name": "Consumer",
-        "signal_score": -0.0637,
+        "signal_score": -0.0629,
         "position": "short",
         "rank": 8
       },
       {
         "ticker": "3191.HK",
         "name": "New Energy",
-        "signal_score": -0.0651,
+        "signal_score": -0.0658,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 1.827,
+    "shock_magnitude": 1.8285,
     "factor_scores": {
-      "global": 0.2776,
-      "country_spread": 0.7155,
-      "cyclical_defensive": 1.658
+      "global": 0.2659,
+      "country_spread": 0.7162,
+      "cyclical_defensive": 1.6613
     }
   }
 }

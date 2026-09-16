@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_europe",
   "signal_date": "2026-09-14",
-  "generated_at": "2026-09-15T01:39:42.437434+00:00",
+  "generated_at": "2026-09-16T01:31:07.285230+00:00",
   "leader_summary": {
     "date": "2026-09-14",
     "sector_returns": [
@@ -67,56 +67,56 @@
       {
         "ticker": "EXV4.DE",
         "name": "Health Care",
-        "signal_score": 0.3073,
+        "signal_score": 0.3087,
         "position": "long",
         "rank": 1
       },
       {
         "ticker": "EXV7.DE",
         "name": "Telecommunications",
-        "signal_score": 0.3027,
+        "signal_score": 0.3017,
         "position": "long",
         "rank": 2
       },
       {
         "ticker": "EXV9.DE",
         "name": "Food & Beverage",
-        "signal_score": 0.2938,
+        "signal_score": 0.2924,
         "position": "neutral",
         "rank": 3
       },
       {
         "ticker": "EXV8.DE",
         "name": "Utilities",
-        "signal_score": 0.2905,
+        "signal_score": 0.2873,
         "position": "neutral",
         "rank": 4
       },
       {
         "ticker": "EXV5.DE",
         "name": "Industrial Goods",
-        "signal_score": -0.3006,
+        "signal_score": -0.3032,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "EXV6.DE",
-        "name": "Energy",
-        "signal_score": -0.3094,
+        "ticker": "EXV1.DE",
+        "name": "Banks",
+        "signal_score": -0.3121,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "EXV1.DE",
-        "name": "Banks",
-        "signal_score": -0.3095,
+        "ticker": "EXV6.DE",
+        "name": "Energy",
+        "signal_score": -0.3124,
         "position": "short",
         "rank": 7
       },
       {
         "ticker": "EXV3.DE",
         "name": "Technology",
-        "signal_score": -0.3191,
+        "signal_score": -0.3213,
         "position": "short",
         "rank": 8
       }
@@ -126,11 +126,11 @@
     "neutral_count": 4
   },
   "propagation_summary": {
-    "shock_magnitude": 1.5969,
+    "shock_magnitude": 1.596,
     "factor_scores": {
-      "global": 0.5936,
-      "country_spread": 1.3516,
-      "cyclical_defensive": 0.6089
+      "global": 0.5752,
+      "country_spread": 1.3618,
+      "cyclical_defensive": 0.6014
     }
   }
 }
