@@ -1364,6 +1364,17 @@
       },
       "top_long": "Gold",
       "top_short": "Financials (Beta)"
+    },
+    {
+      "date": "2026-09-17",
+      "shock_magnitude": 0.0323,
+      "factor_scores": {
+        "global": 0.0056,
+        "country_spread": 0.027,
+        "cyclical_defensive": 0.0169
+      },
+      "top_long": "Gold",
+      "top_short": "Financials (Beta)"
     }
   ]
 }

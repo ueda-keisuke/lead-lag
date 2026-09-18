@@ -1309,6 +1309,17 @@
       },
       "top_long": "Pharma",
       "top_short": "Infrastructure"
+    },
+    {
+      "date": "2026-09-17",
+      "shock_magnitude": 0.1669,
+      "factor_scores": {
+        "global": 0.0907,
+        "country_spread": 0.0803,
+        "cyclical_defensive": 0.1149
+      },
+      "top_long": "Pharma",
+      "top_short": "Infrastructure"
     }
   ]
 }
