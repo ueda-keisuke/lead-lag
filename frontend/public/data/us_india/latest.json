@@ -1,39 +1,39 @@
 {
   "market_pair_id": "us_india",
-  "signal_date": "2026-09-17",
-  "generated_at": "2026-09-18T01:22:12.104423+00:00",
+  "signal_date": "2026-09-18",
+  "generated_at": "2026-09-19T01:22:19.527040+00:00",
   "leader_summary": {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 0.0
+        "return_pct": -1.42
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": 0.0
+        "return_pct": -0.26
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": 0.0
+        "return_pct": -0.04
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": 0.0
+        "return_pct": 0.44
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": 0.0
+        "return_pct": 0.82
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.0
+        "return_pct": -0.83
       },
       {
         "ticker": "XLRE",
@@ -43,17 +43,17 @@
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.0
+        "return_pct": -1.42
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": 0.0
+        "return_pct": -0.25
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": 0.0
+        "return_pct": -0.32
       },
       {
         "ticker": "XLC",
@@ -65,65 +65,65 @@
   "signal": {
     "sectors": [
       {
-        "ticker": "PHARMABEES.NS",
-        "name": "Pharma",
-        "signal_score": 0.0421,
+        "ticker": "METALIETF.NS",
+        "name": "Metals",
+        "signal_score": 0.0232,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "CONSUMBEES.NS",
-        "name": "Consumption",
-        "signal_score": 0.0401,
+        "ticker": "INFRABEES.NS",
+        "name": "Infrastructure",
+        "signal_score": 0.0213,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "AUTOIETF.NS",
-        "name": "Automobiles",
-        "signal_score": -0.0066,
+        "ticker": "PSUBNKBEES.NS",
+        "name": "PSU Banks",
+        "signal_score": 0.0201,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "BANKBEES.NS",
-        "name": "Banks",
-        "signal_score": -0.0084,
+        "ticker": "JUNIORBEES.NS",
+        "name": "Nifty Next 50",
+        "signal_score": 0.0187,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "ITBEES.NS",
-        "name": "IT",
-        "signal_score": -0.0087,
+        "ticker": "BANKBEES.NS",
+        "name": "Banks",
+        "signal_score": 0.018,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "JUNIORBEES.NS",
-        "name": "Nifty Next 50",
-        "signal_score": -0.0091,
+        "ticker": "ITBEES.NS",
+        "name": "IT",
+        "signal_score": 0.0169,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "PSUBNKBEES.NS",
-        "name": "PSU Banks",
-        "signal_score": -0.0094,
+        "ticker": "AUTOIETF.NS",
+        "name": "Automobiles",
+        "signal_score": 0.0166,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "METALIETF.NS",
-        "name": "Metals",
-        "signal_score": -0.0115,
+        "ticker": "CONSUMBEES.NS",
+        "name": "Consumption",
+        "signal_score": -0.0952,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "INFRABEES.NS",
-        "name": "Infrastructure",
-        "signal_score": -0.012,
+        "ticker": "PHARMABEES.NS",
+        "name": "Pharma",
+        "signal_score": -0.0978,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 0.1669,
+    "shock_magnitude": 1.2607,
     "factor_scores": {
-      "global": 0.0907,
-      "country_spread": 0.0803,
-      "cyclical_defensive": 0.1149
+      "global": 0.924,
+      "country_spread": 0.827,
+      "cyclical_defensive": -0.2276
     }
   }
 }
