@@ -1334,11 +1334,11 @@
     },
     {
       "date": "2026-09-21",
-      "shock_magnitude": 1.9891,
+      "shock_magnitude": 1.9811,
       "factor_scores": {
-        "global": -1.5465,
-        "country_spread": 0.6616,
-        "cyclical_defensive": -1.0615
+        "global": -1.548,
+        "country_spread": 0.6601,
+        "cyclical_defensive": -1.0454
       },
       "top_long": "Health Care",
       "top_short": "Technology"

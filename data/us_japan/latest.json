@@ -1,7 +1,7 @@
 {
   "market_pair_id": "us_japan",
   "signal_date": "2026-09-21",
-  "generated_at": "2026-09-22T01:42:17.087282+00:00",
+  "generated_at": "2026-09-23T01:37:26.573756+00:00",
   "leader_summary": {
     "date": "2026-09-21",
     "sector_returns": [
@@ -74,7 +74,7 @@
       {
         "ticker": "1628.T",
         "name": "Transport & Logistics",
-        "signal_score": 0.145,
+        "signal_score": 0.1451,
         "position": "long",
         "rank": 2
       },
@@ -88,14 +88,14 @@
       {
         "ticker": "1617.T",
         "name": "Foods",
-        "signal_score": 0.1401,
+        "signal_score": 0.1402,
         "position": "long",
         "rank": 4
       },
       {
         "ticker": "1627.T",
         "name": "Electric & Gas",
-        "signal_score": 0.1309,
+        "signal_score": 0.131,
         "position": "long",
         "rank": 5
       },
@@ -116,7 +116,7 @@
       {
         "ticker": "1629.T",
         "name": "Commerce & Wholesale",
-        "signal_score": -0.0554,
+        "signal_score": -0.0553,
         "position": "neutral",
         "rank": 8
       },
@@ -137,7 +137,7 @@
       {
         "ticker": "1622.T",
         "name": "Automobiles & Transport",
-        "signal_score": -0.061,
+        "signal_score": -0.0609,
         "position": "neutral",
         "rank": 11
       },
@@ -189,10 +189,10 @@
     "neutral_count": 7
   },
   "propagation_summary": {
-    "shock_magnitude": 1.9456,
+    "shock_magnitude": 1.9457,
     "factor_scores": {
-      "global": -0.0831,
-      "country_spread": -1.9081,
+      "global": -0.0715,
+      "country_spread": -1.9086,
       "cyclical_defensive": 0.371
     }
   }
