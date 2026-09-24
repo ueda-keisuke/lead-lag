@@ -1408,6 +1408,17 @@
       },
       "top_long": "Pharmaceuticals",
       "top_short": "Materials & Chemicals"
+    },
+    {
+      "date": "2026-09-23",
+      "shock_magnitude": 2.0323,
+      "factor_scores": {
+        "global": 0.0021,
+        "country_spread": 1.7599,
+        "cyclical_defensive": -1.0164
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Pharmaceuticals"
     }
   ]
 }
