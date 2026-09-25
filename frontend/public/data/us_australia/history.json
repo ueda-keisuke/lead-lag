@@ -1419,6 +1419,17 @@
       },
       "top_long": "Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-09-24",
+      "shock_magnitude": 0.9927,
+      "factor_scores": {
+        "global": 0.3225,
+        "country_spread": 0.7194,
+        "cyclical_defensive": 0.6033
+      },
+      "top_long": "Gold",
+      "top_short": "Financials (Beta)"
     }
   ]
 }

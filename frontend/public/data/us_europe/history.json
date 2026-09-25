@@ -1353,6 +1353,17 @@
       },
       "top_long": "Technology",
       "top_short": "Health Care"
+    },
+    {
+      "date": "2026-09-24",
+      "shock_magnitude": 0.9771,
+      "factor_scores": {
+        "global": 0.6855,
+        "country_spread": 0.3971,
+        "cyclical_defensive": 0.572
+      },
+      "top_long": "Telecommunications",
+      "top_short": "Banks"
     }
   ]
 }
