@@ -1364,6 +1364,17 @@
       },
       "top_long": "Telecommunications",
       "top_short": "Banks"
+    },
+    {
+      "date": "2026-09-25",
+      "shock_magnitude": 0.823,
+      "factor_scores": {
+        "global": -0.6581,
+        "country_spread": -0.0336,
+        "cyclical_defensive": -0.4931
+      },
+      "top_long": "Banks",
+      "top_short": "Utilities"
     }
   ]
 }
