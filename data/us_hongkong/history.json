@@ -1353,6 +1353,17 @@
       },
       "top_long": "New Energy",
       "top_short": "Semiconductor"
+    },
+    {
+      "date": "2026-09-29",
+      "shock_magnitude": 0.4627,
+      "factor_scores": {
+        "global": 0.0042,
+        "country_spread": 0.0723,
+        "cyclical_defensive": 0.457
+      },
+      "top_long": "Healthcare",
+      "top_short": "New Energy"
     }
   ]
 }

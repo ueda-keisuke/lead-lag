@@ -1397,6 +1397,17 @@
       },
       "top_long": "Consumption",
       "top_short": "IT"
+    },
+    {
+      "date": "2026-09-29",
+      "shock_magnitude": 0.4252,
+      "factor_scores": {
+        "global": 0.0682,
+        "country_spread": 0.0275,
+        "cyclical_defensive": 0.4188
+      },
+      "top_long": "Pharma",
+      "top_short": "Metals"
     }
   ]
 }
