@@ -1474,6 +1474,17 @@
       },
       "top_long": "Listed Property",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-10-01",
+      "shock_magnitude": 1.277,
+      "factor_scores": {
+        "global": -0.289,
+        "country_spread": -0.0605,
+        "cyclical_defensive": -1.2424
+      },
+      "top_long": "Crude Oil",
+      "top_short": "Healthcare"
     }
   ]
 }
