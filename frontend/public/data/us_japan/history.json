@@ -1485,6 +1485,17 @@
       },
       "top_long": "Electronics & Precision",
       "top_short": "Retail"
+    },
+    {
+      "date": "2026-10-02",
+      "shock_magnitude": 1.5877,
+      "factor_scores": {
+        "global": -0.0071,
+        "country_spread": -1.5307,
+        "cyclical_defensive": -0.4215
+      },
+      "top_long": "Machinery",
+      "top_short": "IT & Services"
     }
   ]
 }
