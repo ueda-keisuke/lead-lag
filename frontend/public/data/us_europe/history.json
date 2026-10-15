@@ -1507,6 +1507,17 @@
       },
       "top_long": "Technology",
       "top_short": "Health Care"
+    },
+    {
+      "date": "2026-10-14",
+      "shock_magnitude": 1.4131,
+      "factor_scores": {
+        "global": 0.3133,
+        "country_spread": 1.3195,
+        "cyclical_defensive": 0.3969
+      },
+      "top_long": "Health Care",
+      "top_short": "Technology"
     }
   ]
 }
