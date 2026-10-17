@@ -1521,11 +1521,11 @@
     },
     {
       "date": "2026-10-15",
-      "shock_magnitude": 2.9085,
+      "shock_magnitude": 2.9053,
       "factor_scores": {
-        "global": -2.2402,
-        "country_spread": 1.07,
-        "cyclical_defensive": -1.5152
+        "global": -2.2326,
+        "country_spread": 0.9945,
+        "cyclical_defensive": -1.5708
       },
       "top_long": "Health Care",
       "top_short": "Energy"
