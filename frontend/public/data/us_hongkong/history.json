@@ -1496,6 +1496,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "New Energy"
+    },
+    {
+      "date": "2026-10-19",
+      "shock_magnitude": 2.3642,
+      "factor_scores": {
+        "global": 1.0683,
+        "country_spread": 1.0825,
+        "cyclical_defensive": -1.8101
+      },
+      "top_long": "New Energy",
+      "top_short": "Healthcare"
     }
   ]
 }
