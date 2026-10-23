@@ -1529,6 +1529,17 @@
       },
       "top_long": "Internet / Tech",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-10-22",
+      "shock_magnitude": 3.8241,
+      "factor_scores": {
+        "global": -1.2901,
+        "country_spread": -1.202,
+        "cyclical_defensive": 3.3933
+      },
+      "top_long": "Healthcare",
+      "top_short": "New Energy"
     }
   ]
 }
