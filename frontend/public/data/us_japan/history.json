@@ -1650,6 +1650,17 @@
       },
       "top_long": "Pharmaceuticals",
       "top_short": "Iron & Steel / Non-ferrous"
+    },
+    {
+      "date": "2026-10-23",
+      "shock_magnitude": 2.8261,
+      "factor_scores": {
+        "global": 0.2749,
+        "country_spread": 2.7401,
+        "cyclical_defensive": -0.6348
+      },
+      "top_long": "Construction & Materials",
+      "top_short": "Pharmaceuticals"
     }
   ]
 }
