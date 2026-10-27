@@ -1661,6 +1661,17 @@
       },
       "top_long": "Listed Property",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-10-26",
+      "shock_magnitude": 1.7216,
+      "factor_scores": {
+        "global": -0.6588,
+        "country_spread": -0.5876,
+        "cyclical_defensive": -1.478
+      },
+      "top_long": "Financials (Beta)",
+      "top_short": "Gold"
     }
   ]
 }

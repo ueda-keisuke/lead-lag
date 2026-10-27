@@ -1661,6 +1661,17 @@
       },
       "top_long": "Construction & Materials",
       "top_short": "Pharmaceuticals"
+    },
+    {
+      "date": "2026-10-26",
+      "shock_magnitude": 1.4177,
+      "factor_scores": {
+        "global": -0.0546,
+        "country_spread": -0.9783,
+        "cyclical_defensive": -1.0247
+      },
+      "top_long": "Electronics & Precision",
+      "top_short": "Electric & Gas"
     }
   ]
 }
