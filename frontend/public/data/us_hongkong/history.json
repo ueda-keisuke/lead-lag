@@ -1573,6 +1573,17 @@
       },
       "top_long": "Internet / Tech",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-10-28",
+      "shock_magnitude": 0.8125,
+      "factor_scores": {
+        "global": 0.0914,
+        "country_spread": 0.0396,
+        "cyclical_defensive": -0.8064
+      },
+      "top_long": "Internet / Tech",
+      "top_short": "Healthcare"
     }
   ]
 }
