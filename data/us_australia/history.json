@@ -1727,6 +1727,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Resources"
+    },
+    {
+      "date": "2026-11-03",
+      "shock_magnitude": 1.3523,
+      "factor_scores": {
+        "global": 0.7767,
+        "country_spread": 1.1023,
+        "cyclical_defensive": -0.1018
+      },
+      "top_long": "Resources",
+      "top_short": "Healthcare"
     }
   ]
 }
