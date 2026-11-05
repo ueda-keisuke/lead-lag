@@ -1628,6 +1628,17 @@
       },
       "top_long": "New Energy",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-11-04",
+      "shock_magnitude": 7.2277,
+      "factor_scores": {
+        "global": -4.4881,
+        "country_spread": -4.3555,
+        "cyclical_defensive": 3.6229
+      },
+      "top_long": "Healthcare",
+      "top_short": "Internet / Tech"
     }
   ]
 }
