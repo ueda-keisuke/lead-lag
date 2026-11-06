@@ -1540,6 +1540,17 @@
       },
       "top_long": "Pharma",
       "top_short": "PSU Banks"
+    },
+    {
+      "date": "2026-11-05",
+      "shock_magnitude": 8.9254,
+      "factor_scores": {
+        "global": 6.4123,
+        "country_spread": 5.2621,
+        "cyclical_defensive": 3.2949
+      },
+      "top_long": "Consumption",
+      "top_short": "IT"
     }
   ]
 }

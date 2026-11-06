@@ -1,185 +1,185 @@
 {
   "market_pair_id": "us_japan",
-  "signal_date": "2026-11-04",
-  "generated_at": "2026-11-05T03:35:54.723571+00:00",
+  "signal_date": "2026-11-05",
+  "generated_at": "2026-11-06T03:30:35.699376+00:00",
   "leader_summary": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": 2.49
+        "return_pct": -2.91
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": -4.74
+        "return_pct": -2.98
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": 3.51
+        "return_pct": -2.87
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -1.09
+        "return_pct": -4.12
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": -0.01
+        "return_pct": -8.0
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 3.36
+        "return_pct": -0.75
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": 3.32
+        "return_pct": -1.82
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.44
+        "return_pct": -0.71
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": 3.06
+        "return_pct": -2.5
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": 4.26
+        "return_pct": -3.83
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": 3.47
+        "return_pct": -0.59
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "1621.T",
-        "name": "Pharmaceuticals",
-        "signal_score": 0.6918,
+        "ticker": "1630.T",
+        "name": "Retail",
+        "signal_score": 0.6777,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "1628.T",
-        "name": "Transport & Logistics",
-        "signal_score": 0.6759,
+        "ticker": "1617.T",
+        "name": "Foods",
+        "signal_score": 0.656,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "1630.T",
-        "name": "Retail",
-        "signal_score": 0.6751,
+        "ticker": "1626.T",
+        "name": "IT & Services",
+        "signal_score": 0.6346,
         "position": "long",
         "rank": 3
       },
       {
-        "ticker": "1617.T",
-        "name": "Foods",
-        "signal_score": 0.6653,
+        "ticker": "1621.T",
+        "name": "Pharmaceuticals",
+        "signal_score": 0.6245,
         "position": "long",
         "rank": 4
       },
       {
-        "ticker": "1627.T",
-        "name": "Electric & Gas",
-        "signal_score": 0.6478,
+        "ticker": "1628.T",
+        "name": "Transport & Logistics",
+        "signal_score": 0.6071,
         "position": "long",
         "rank": 5
       },
       {
-        "ticker": "1626.T",
-        "name": "IT & Services",
-        "signal_score": 0.6061,
+        "ticker": "1627.T",
+        "name": "Electric & Gas",
+        "signal_score": 0.5327,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "1633.T",
-        "name": "Real Estate",
-        "signal_score": -0.2556,
+        "ticker": "1622.T",
+        "name": "Automobiles & Transport",
+        "signal_score": -0.1881,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "1629.T",
-        "name": "Commerce & Wholesale",
-        "signal_score": -0.2702,
+        "ticker": "1633.T",
+        "name": "Real Estate",
+        "signal_score": -0.1994,
         "position": "neutral",
         "rank": 8
       },
       {
-        "ticker": "1632.T",
-        "name": "Finance (ex Banks)",
-        "signal_score": -0.2723,
+        "ticker": "1620.T",
+        "name": "Materials & Chemicals",
+        "signal_score": -0.275,
         "position": "neutral",
         "rank": 9
       },
       {
-        "ticker": "1622.T",
-        "name": "Automobiles & Transport",
-        "signal_score": -0.2862,
+        "ticker": "1619.T",
+        "name": "Construction & Materials",
+        "signal_score": -0.2822,
         "position": "neutral",
         "rank": 10
       },
       {
-        "ticker": "1631.T",
-        "name": "Banks",
-        "signal_score": -0.3052,
+        "ticker": "1632.T",
+        "name": "Finance (ex Banks)",
+        "signal_score": -0.289,
         "position": "neutral",
         "rank": 11
       },
       {
-        "ticker": "1618.T",
-        "name": "Energy Resources",
-        "signal_score": -0.3263,
+        "ticker": "1629.T",
+        "name": "Commerce & Wholesale",
+        "signal_score": -0.296,
         "position": "neutral",
         "rank": 12
       },
       {
-        "ticker": "1620.T",
-        "name": "Materials & Chemicals",
-        "signal_score": -0.3458,
+        "ticker": "1631.T",
+        "name": "Banks",
+        "signal_score": -0.3069,
         "position": "short",
         "rank": 13
       },
       {
-        "ticker": "1619.T",
-        "name": "Construction & Materials",
-        "signal_score": -0.3459,
+        "ticker": "1624.T",
+        "name": "Machinery",
+        "signal_score": -0.32,
         "position": "short",
         "rank": 14
       },
       {
-        "ticker": "1625.T",
-        "name": "Electronics & Precision",
-        "signal_score": -0.3503,
+        "ticker": "1623.T",
+        "name": "Iron & Steel / Non-ferrous",
+        "signal_score": -0.3273,
         "position": "short",
         "rank": 15
       },
       {
-        "ticker": "1624.T",
-        "name": "Machinery",
-        "signal_score": -0.3549,
+        "ticker": "1618.T",
+        "name": "Energy Resources",
+        "signal_score": -0.3284,
         "position": "short",
         "rank": 16
       },
       {
-        "ticker": "1623.T",
-        "name": "Iron & Steel / Non-ferrous",
-        "signal_score": -0.3594,
+        "ticker": "1625.T",
+        "name": "Electronics & Precision",
+        "signal_score": -0.3324,
         "position": "short",
         "rank": 17
       }
@@ -189,11 +189,11 @@
     "neutral_count": 7
   },
   "propagation_summary": {
-    "shock_magnitude": 6.6009,
+    "shock_magnitude": 8.6382,
     "factor_scores": {
-      "global": -1.4791,
-      "country_spread": -6.1118,
-      "cyclical_defensive": 2.0075
+      "global": 3.3608,
+      "country_spread": 7.7349,
+      "cyclical_defensive": 1.8694
     }
   }
 }

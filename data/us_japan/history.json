@@ -1749,6 +1749,17 @@
       },
       "top_long": "Pharmaceuticals",
       "top_short": "Iron & Steel / Non-ferrous"
+    },
+    {
+      "date": "2026-11-05",
+      "shock_magnitude": 8.6382,
+      "factor_scores": {
+        "global": 3.3608,
+        "country_spread": 7.7349,
+        "cyclical_defensive": 1.8694
+      },
+      "top_long": "Retail",
+      "top_short": "Electronics & Precision"
     }
   ]
 }

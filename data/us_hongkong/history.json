@@ -1639,6 +1639,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Internet / Tech"
+    },
+    {
+      "date": "2026-11-05",
+      "shock_magnitude": 9.0455,
+      "factor_scores": {
+        "global": 5.8567,
+        "country_spread": 5.8428,
+        "cyclical_defensive": 3.6581
+      },
+      "top_long": "Healthcare",
+      "top_short": "Semiconductor"
     }
   ]
 }
