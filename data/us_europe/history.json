@@ -1716,6 +1716,17 @@
       },
       "top_long": "Health Care",
       "top_short": "Technology"
+    },
+    {
+      "date": "2026-11-11",
+      "shock_magnitude": 2.0275,
+      "factor_scores": {
+        "global": -1.3944,
+        "country_spread": -0.8344,
+        "cyclical_defensive": -1.2126
+      },
+      "top_long": "Technology",
+      "top_short": "Telecommunications"
     }
   ]
 }
