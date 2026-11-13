@@ -1595,6 +1595,17 @@
       },
       "top_long": "PSU Banks",
       "top_short": "Consumption"
+    },
+    {
+      "date": "2026-11-12",
+      "shock_magnitude": 1.4905,
+      "factor_scores": {
+        "global": 1.206,
+        "country_spread": 0.816,
+        "cyclical_defensive": -0.3182
+      },
+      "top_long": "IT",
+      "top_short": "Pharma"
     }
   ]
 }
