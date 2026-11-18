@@ -1837,6 +1837,17 @@
       },
       "top_long": "Foods",
       "top_short": "Iron & Steel / Non-ferrous"
+    },
+    {
+      "date": "2026-11-17",
+      "shock_magnitude": 3.7243,
+      "factor_scores": {
+        "global": 0.067,
+        "country_spread": 3.6431,
+        "cyclical_defensive": -0.7705
+      },
+      "top_long": "Automobiles & Transport",
+      "top_short": "Pharmaceuticals"
     }
   ]
 }

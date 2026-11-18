@@ -1,129 +1,129 @@
 {
   "market_pair_id": "us_india",
-  "signal_date": "2026-11-16",
-  "generated_at": "2026-11-17T05:09:39.549857+00:00",
+  "signal_date": "2026-11-17",
+  "generated_at": "2026-11-18T04:37:34.191438+00:00",
   "leader_summary": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "sector_returns": [
       {
         "ticker": "XLB",
         "name": "Materials",
-        "return_pct": -1.46
+        "return_pct": -1.22
       },
       {
         "ticker": "XLE",
         "name": "Energy",
-        "return_pct": -1.96
+        "return_pct": -0.52
       },
       {
         "ticker": "XLF",
         "name": "Financials",
-        "return_pct": -0.85
+        "return_pct": -1.91
       },
       {
         "ticker": "XLI",
         "name": "Industrials",
-        "return_pct": -1.85
+        "return_pct": -0.55
       },
       {
         "ticker": "XLK",
         "name": "Information Technology",
-        "return_pct": -3.24
+        "return_pct": -0.91
       },
       {
         "ticker": "XLP",
         "name": "Consumer Staples",
-        "return_pct": 0.27
+        "return_pct": -1.23
       },
       {
         "ticker": "XLRE",
         "name": "Real Estate",
-        "return_pct": -0.27
+        "return_pct": -1.49
       },
       {
         "ticker": "XLU",
         "name": "Utilities",
-        "return_pct": 0.18
+        "return_pct": -1.59
       },
       {
         "ticker": "XLV",
         "name": "Health Care",
-        "return_pct": -0.51
+        "return_pct": -1.41
       },
       {
         "ticker": "XLY",
         "name": "Consumer Discretionary",
-        "return_pct": -1.53
+        "return_pct": -0.89
       },
       {
         "ticker": "XLC",
         "name": "Communication Services",
-        "return_pct": -1.72
+        "return_pct": -1.46
       }
     ]
   },
   "signal": {
     "sectors": [
       {
-        "ticker": "CONSUMBEES.NS",
-        "name": "Consumption",
-        "signal_score": 0.4993,
+        "ticker": "ITBEES.NS",
+        "name": "IT",
+        "signal_score": 0.1238,
         "position": "long",
         "rank": 1
       },
       {
-        "ticker": "PHARMABEES.NS",
-        "name": "Pharma",
-        "signal_score": 0.4612,
+        "ticker": "PSUBNKBEES.NS",
+        "name": "PSU Banks",
+        "signal_score": 0.1114,
         "position": "long",
         "rank": 2
       },
       {
-        "ticker": "AUTOIETF.NS",
-        "name": "Automobiles",
-        "signal_score": -0.0966,
+        "ticker": "BANKBEES.NS",
+        "name": "Banks",
+        "signal_score": 0.1109,
         "position": "neutral",
         "rank": 3
       },
       {
-        "ticker": "BANKBEES.NS",
-        "name": "Banks",
-        "signal_score": -0.1047,
+        "ticker": "AUTOIETF.NS",
+        "name": "Automobiles",
+        "signal_score": 0.1039,
         "position": "neutral",
         "rank": 4
       },
       {
-        "ticker": "JUNIORBEES.NS",
-        "name": "Nifty Next 50",
-        "signal_score": -0.1182,
+        "ticker": "METALIETF.NS",
+        "name": "Metals",
+        "signal_score": 0.0995,
         "position": "neutral",
         "rank": 5
       },
       {
-        "ticker": "ITBEES.NS",
-        "name": "IT",
-        "signal_score": -0.1248,
+        "ticker": "INFRABEES.NS",
+        "name": "Infrastructure",
+        "signal_score": 0.0821,
         "position": "neutral",
         "rank": 6
       },
       {
-        "ticker": "METALIETF.NS",
-        "name": "Metals",
-        "signal_score": -0.1256,
+        "ticker": "JUNIORBEES.NS",
+        "name": "Nifty Next 50",
+        "signal_score": 0.0805,
         "position": "neutral",
         "rank": 7
       },
       {
-        "ticker": "INFRABEES.NS",
-        "name": "Infrastructure",
-        "signal_score": -0.1311,
+        "ticker": "CONSUMBEES.NS",
+        "name": "Consumption",
+        "signal_score": -0.4027,
         "position": "short",
         "rank": 8
       },
       {
-        "ticker": "PSUBNKBEES.NS",
-        "name": "PSU Banks",
-        "signal_score": -0.1359,
+        "ticker": "PHARMABEES.NS",
+        "name": "Pharma",
+        "signal_score": -0.428,
         "position": "short",
         "rank": 9
       }
@@ -133,11 +133,11 @@
     "neutral_count": 5
   },
   "propagation_summary": {
-    "shock_magnitude": 3.324,
+    "shock_magnitude": 3.8197,
     "factor_scores": {
-      "global": 2.4801,
-      "country_spread": 1.6769,
-      "cyclical_defensive": 1.4442
+      "global": 3.0181,
+      "country_spread": 2.03,
+      "cyclical_defensive": -1.1662
     }
   }
 }
