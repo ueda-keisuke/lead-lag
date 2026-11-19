@@ -1639,6 +1639,17 @@
       },
       "top_long": "IT",
       "top_short": "Pharma"
+    },
+    {
+      "date": "2026-11-18",
+      "shock_magnitude": 1.1945,
+      "factor_scores": {
+        "global": 0.9374,
+        "country_spread": 0.678,
+        "cyclical_defensive": -0.2973
+      },
+      "top_long": "Banks",
+      "top_short": "Pharma"
     }
   ]
 }
