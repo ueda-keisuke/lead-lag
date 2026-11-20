@@ -1837,6 +1837,17 @@
       },
       "top_long": "Automobiles",
       "top_short": "Insurance"
+    },
+    {
+      "date": "2026-11-19",
+      "shock_magnitude": 3.9618,
+      "factor_scores": {
+        "global": 3.1177,
+        "country_spread": 2.3749,
+        "cyclical_defensive": 0.5798
+      },
+      "top_long": "Consumer Staples",
+      "top_short": "Semiconductor"
     }
   ]
 }
