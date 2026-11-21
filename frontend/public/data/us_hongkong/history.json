@@ -1760,6 +1760,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Semiconductor"
+    },
+    {
+      "date": "2026-11-20",
+      "shock_magnitude": 5.2227,
+      "factor_scores": {
+        "global": 3.4738,
+        "country_spread": 3.1971,
+        "cyclical_defensive": 2.2334
+      },
+      "top_long": "Healthcare",
+      "top_short": "Semiconductor"
     }
   ]
 }

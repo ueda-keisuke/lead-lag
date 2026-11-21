@@ -1870,6 +1870,17 @@
       },
       "top_long": "Foods",
       "top_short": "Energy Resources"
+    },
+    {
+      "date": "2026-11-20",
+      "shock_magnitude": 4.9523,
+      "factor_scores": {
+        "global": 0.5948,
+        "country_spread": 4.692,
+        "cyclical_defensive": 1.4687
+      },
+      "top_long": "Foods",
+      "top_short": "Iron & Steel / Non-ferrous"
     }
   ]
 }
