@@ -1672,6 +1672,17 @@
       },
       "top_long": "Consumption",
       "top_short": "Infrastructure"
+    },
+    {
+      "date": "2026-11-23",
+      "shock_magnitude": 6.7864,
+      "factor_scores": {
+        "global": -6.0831,
+        "country_spread": -2.2344,
+        "cyclical_defensive": -2.0144
+      },
+      "top_long": "Metals",
+      "top_short": "Consumption"
     }
   ]
 }

@@ -1804,6 +1804,17 @@
       },
       "top_long": "Telecommunications",
       "top_short": "Technology"
+    },
+    {
+      "date": "2026-11-23",
+      "shock_magnitude": 6.7113,
+      "factor_scores": {
+        "global": -5.1064,
+        "country_spread": -1.4848,
+        "cyclical_defensive": -4.0941
+      },
+      "top_long": "Technology",
+      "top_short": "Telecommunications"
     }
   ]
 }
