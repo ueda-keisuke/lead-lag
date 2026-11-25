@@ -1782,6 +1782,17 @@
       },
       "top_long": "Healthcare",
       "top_short": "Semiconductor"
+    },
+    {
+      "date": "2026-11-24",
+      "shock_magnitude": 2.6996,
+      "factor_scores": {
+        "global": -1.7574,
+        "country_spread": -1.1497,
+        "cyclical_defensive": 1.6963
+      },
+      "top_long": "Healthcare",
+      "top_short": "CSOP Hang Seng Tech"
     }
   ]
 }
