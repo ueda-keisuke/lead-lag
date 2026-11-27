@@ -1796,11 +1796,11 @@
     },
     {
       "date": "2026-11-25",
-      "shock_magnitude": 1.5454,
+      "shock_magnitude": 1.5447,
       "factor_scores": {
-        "global": -1.2589,
-        "country_spread": -0.8701,
-        "cyclical_defensive": -0.2153
+        "global": -1.2918,
+        "country_spread": -0.8211,
+        "cyclical_defensive": -0.2082
       },
       "top_long": "Consumer",
       "top_short": "Healthcare"

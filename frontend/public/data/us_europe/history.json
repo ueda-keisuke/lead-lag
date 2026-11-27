@@ -1829,11 +1829,11 @@
     },
     {
       "date": "2026-11-25",
-      "shock_magnitude": 1.5372,
+      "shock_magnitude": 1.5388,
       "factor_scores": {
-        "global": -1.2007,
-        "country_spread": -0.0752,
-        "cyclical_defensive": -0.9569
+        "global": -1.2019,
+        "country_spread": -0.048,
+        "cyclical_defensive": -0.9597
       },
       "top_long": "Technology",
       "top_short": "Telecommunications"
