@@ -1925,6 +1925,17 @@
       },
       "top_long": "Iron & Steel / Non-ferrous",
       "top_short": "Foods"
+    },
+    {
+      "date": "2026-11-27",
+      "shock_magnitude": 3.1793,
+      "factor_scores": {
+        "global": -0.6606,
+        "country_spread": -3.036,
+        "cyclical_defensive": 0.674
+      },
+      "top_long": "Iron & Steel / Non-ferrous",
+      "top_short": "Foods"
     }
   ]
 }

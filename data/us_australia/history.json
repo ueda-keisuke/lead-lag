@@ -1925,6 +1925,17 @@
       },
       "top_long": "Crude Oil",
       "top_short": "Healthcare"
+    },
+    {
+      "date": "2026-11-27",
+      "shock_magnitude": 3.2502,
+      "factor_scores": {
+        "global": -2.4022,
+        "country_spread": -1.9388,
+        "cyclical_defensive": -1.0171
+      },
+      "top_long": "Crude Oil",
+      "top_short": "Healthcare"
     }
   ]
 }

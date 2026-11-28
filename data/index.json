@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-11-27T05:13:35.127520+00:00",
+  "last_updated": "2026-11-28T04:49:49.923025+00:00",
   "market_pairs": [
     {
       "id": "us_japan",
       "name": "US → Japan",
-      "latest_date": "2026-11-26"
+      "latest_date": "2026-11-27"
     },
     {
       "id": "us_korea",
       "name": "US → Korea",
-      "latest_date": "2026-11-26"
+      "latest_date": "2026-11-27"
     },
     {
       "id": "us_europe",
       "name": "US → Europe",
-      "latest_date": "2026-11-25"
+      "latest_date": "2026-11-27"
     },
     {
       "id": "us_india",
       "name": "US → India",
-      "latest_date": "2026-11-26"
+      "latest_date": "2026-11-27"
     },
     {
       "id": "us_hongkong",
       "name": "US → Hong Kong",
-      "latest_date": "2026-11-25"
+      "latest_date": "2026-11-27"
     },
     {
       "id": "us_australia",
       "name": "US → Australia",
-      "latest_date": "2026-11-26"
+      "latest_date": "2026-11-27"
     }
   ]
 }
